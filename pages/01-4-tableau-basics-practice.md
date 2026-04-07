@@ -11,11 +11,7 @@
 
 실습에는 Superstore 기반 샘플 데이터와 Tableau 통합 문서를 사용합니다.
 
-실습 파일 다운로드:
-
-```text
-https://www.kaggle.com/datasets/heoquixote/krsuperstore-sample-2025/data
-```
+실습 파일 다운로드: [Kaggle - KR Superstore Sample 2025](https://www.kaggle.com/datasets/heoquixote/krsuperstore-sample-2025/data)
 
 ## 목차
 
