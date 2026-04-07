@@ -1,4 +1,4 @@
-# 01-3. Tableau Desktop 설치 및 라이선스 활성화
+# 1-3. Tableau Desktop 설치 및 라이선스 활성화
 
 이 절에서는 Tableau Desktop 설치 방법과 라이선스 활성화 과정을 설명합니다.
 

@@ -1,4 +1,4 @@
-# 05-5. Tableau Cloud를 통한 대시보드 공유
+# 5-5. Tableau Cloud를 통한 대시보드 공유
 
 이 절에서는 Tableau Cloud를 통해 대시보드를 배포하고 공유하는 방법을 설명합니다.
 
