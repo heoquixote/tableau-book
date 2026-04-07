@@ -3,10 +3,6 @@
 - Tableau 인터페이스의 기본 구조를 이해합니다.
 - 차원(Dimension)과 측정값(Measure)의 차이를 설명할 수 있습니다.
 
-## 사용 프로그램
-
-- Tableau Desktop
-
 ## 사용 데이터 및 실습 파일
 
 실습에는 Superstore 기반 샘플 데이터와 Tableau 통합 문서를 사용합니다.

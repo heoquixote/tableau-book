@@ -4,11 +4,6 @@
 - Tableau Desktop에서 라이선스를 활성화하여 실습 환경을 구축할 수 있습니다.
 - Tableau Cloud와 Desktop을 연동해 정상적으로 작동하는지 확인할 수 있습니다.
 
-## 사용 프로그램
-
-- Tableau Desktop
-- Tableau Cloud
-
 ## 목차
 
 1. Tableau 라이선스 활성화
