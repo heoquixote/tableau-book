@@ -1,4 +1,4 @@
-# 01. Tableau 기초
+# 1. Tableau 기초
 
 BI와 Tableau를 이해하고 Tableau의 기본 조작을 익히는 챕터입니다.
 
