@@ -8,7 +8,9 @@ BI와 Tableau를 이해하고 Tableau의 기본 조작을 익히는 챕터입니
 
 ## 세부 목차
 
-- 1-1. 비즈니스 인텔리전스란
-- 1-2. Tableau 소개
-- 1-3. Tableau Desktop 설치 및 라이선스 활성화
-- 1-4. Tableau 기초
+- 1-1. 시각적 분석(Visual Analytics)
+- 1-2. 비즈니스 인텔리전스란?
+- 1-3. Tableau란?
+- 1-4. 태블로의 장점
+- 1-5. Tableau Desktop 설치 및 라이선스 활성화
+- 1-6. Tableau 기초

@@ -21,7 +21,7 @@ Tableau 입문부터 대시보드 설계, 데이터 계산, Tableau Cloud 공유
 
 ## 도서 구성
 
-### 01. Tableau 기초
+### 01. Tableau 개념
 
 BI가 왜 필요한지, 시각화가 왜 중요한지부터 시작합니다.  
 이 장에서는 Tableau라는 도구를 단순히 소개하는 데서 끝나지 않고, 제품군 구조, 라이선스, 설치와 인증 흐름, 기본 화면 구성까지 한 번에 정리합니다.
@@ -164,18 +164,20 @@ tableau-book/
 
 ### 실습 위주로 보는 경우
 
-- `pages/` 안에서 `[실습]`이 포함된 절부터 먼저 따라가면 됩니다.
+- `pages/` 안에서 따라하기 형태의 절부터 먼저 보셔도 됩니다.
 - 데이터는 먼저 내려받아 두는 편이 좋습니다.
 - 4장은 Tableau Prep, 5장은 Tableau Desktop과 Tableau Cloud 환경이 있으면 가장 자연스럽게 따라갈 수 있습니다.
 
 ## 문서 링크
 
-### 1장. Tableau 기초
+### 1장. Tableau 개념
 
-- [1-1. 비즈니스 인텔리전스란](./pages/01-1-bi-overview.md)
-- [1-2. Tableau 소개](./pages/01-2-tableau-introduction.md)
-- [1-3. Tableau Desktop 설치 및 라이선스 활성화](./pages/01-3-install-and-license.md)
-- [1-4. Tableau 기초](./pages/01-4-tableau-basics-practice.md)
+- [1-1. 시각적 분석(Visual Analytics)](./pages/01-1-visual-analytics.md)
+- [1-2. 비즈니스 인텔리전스란?](./pages/01-2-bi-overview.md)
+- [1-3. Tableau란?](./pages/01-3-what-is-tableau.md)
+- [1-4. 태블로의 장점](./pages/01-4-tableau-benefits.md)
+- [1-5. Tableau Desktop 설치 및 라이선스 활성화](./pages/01-5-install-and-license.md)
+- [1-6. Tableau 기초](./pages/01-6-tableau-basics-practice.md)
 
 ### 2장. 데이터 시각화
 

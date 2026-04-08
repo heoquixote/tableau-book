@@ -1,10 +1,12 @@
 # 목차
 
-* [1. Tableau 기초](pages/01-tableau-basics.md)
-  * [1-1. 비즈니스 인텔리전스란](pages/01-1-bi-overview.md)
-  * [1-2. Tableau 소개](pages/01-2-tableau-introduction.md)
-  * [1-3. Tableau Desktop 설치 및 라이선스 활성화](pages/01-3-install-and-license.md)
-  * [1-4. Tableau 기초](pages/01-4-tableau-basics-practice.md)
+* [1. Tableau 개념](pages/01-tableau-basics.md)
+  * [1-1. 시각적 분석(Visual Analytics)](pages/01-1-visual-analytics.md)
+  * [1-2. 비즈니스 인텔리전스란?](pages/01-2-bi-overview.md)
+  * [1-3. Tableau란?](pages/01-3-what-is-tableau.md)
+  * [1-4. 태블로의 장점](pages/01-4-tableau-benefits.md)
+  * [1-5. Tableau Desktop 설치 및 라이선스 활성화](pages/01-5-install-and-license.md)
+  * [1-6. Tableau 기초](pages/01-6-tableau-basics-practice.md)
 * [2. 데이터 시각화](pages/02-data-visualization.md)
   * [2-1. 다양한 차트 시각화](pages/02-1-chart-visualization.md)
   * [2-2. 분석을 위한 다양한 기능 활용](pages/02-2-analysis-features.md)
