@@ -25,15 +25,11 @@ Tableau에서는 크게 두 가지 방식으로 공유할 수 있습니다.
 - 파일로 공유
 - 서버 또는 클라우드에 게시해 공유
 
-![대시보드 공유 방식 개요 이미지 삽입 예정](../assets/02-4-sharing-overview.png)
-
 즉, Tableau 사용 여부와 관계없이 상황에 따라 가장 적합한 전달 방식을 선택할 수 있습니다.
 
 #### Tableau 통합 문서(`.twb`, `.twbx`)
 
 통합 문서로 저장하려면 상단 메뉴에서 `파일 -> 저장` 또는 `다른 이름으로 저장`을 사용합니다.
-
-![통합 문서 저장 메뉴 이미지 삽입 예정](../assets/02-4-workbook-save-menu.png)
 
 Tableau 통합 문서에는 대표적으로 두 가지 형식이 있습니다.
 
@@ -151,8 +147,6 @@ Tableau는 대시보드를 PowerPoint 형식으로 내보낼 수 있습니다.
 
 Tableau Public은 만든 대시보드나 스토리를 공개적으로 게시할 수 있는 플랫폼입니다.
 
-![Tableau Public 소개 이미지 삽입 예정](../assets/02-4-tableau-public-overview.png)
-
 특징은 다음과 같습니다.
 
 - 누구나 무료로 시각화를 게시할 수 있습니다.
@@ -175,8 +169,6 @@ Tableau Public은 말 그대로 공개 플랫폼입니다.
 ### 2-3. [실습] Tableau Public에 게시
 
 Tableau Public에 게시하려면 상단 메뉴에서 `서버 -> Tableau Public에 저장` 또는 `다른 이름으로 저장`을 선택합니다.
-
-![Tableau Public 저장 메뉴 이미지 삽입 예정](../assets/02-4-save-to-public.png)
 
 Public에 게시하기 위해서는 Public 계정을 먼저 생성해야 합니다.  
 이 과정 자체는 비교적 간단하지만, 중요한 전제가 하나 있습니다.
