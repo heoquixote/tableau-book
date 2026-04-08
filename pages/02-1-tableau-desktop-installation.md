@@ -52,4 +52,4 @@ https://www.tableau.com/ko-kr/support/releases
 ![등록 양식 이미지 삽입 예정](../assets/01-3-desktop-registration-form.png)
 
 여기까지 완료되면 프로그램 설치 자체는 끝난 상태입니다.  
-다만 실제로 Tableau를 사용하려면 다음 문서에서 다루는 라이선스 활성화가 이어져야 합니다.
+다만 실제로 Tableau를 사용하려면 이후 문서에서 다루는 라이선스 활성화가 이어져야 합니다.
