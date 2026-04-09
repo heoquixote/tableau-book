@@ -16,7 +16,7 @@ KPI(Key Performance Indicator, 핵심성과지표)는 조직, 부서, 개인이 
 중요한 점은 KPI가 단순한 숫자가 아니라는 것입니다.  
 좋은 KPI는 `목표와 직접 연결`되어 있어야 하고, `행동을 유도`해야 하며, `시간 안에서 해석 가능`해야 합니다.
 
-![KPI 개념](../assets/04-6/02-1-kpi-overview.png)
+![KPI 개념](../assets/04-9/02-1-kpi-overview.png)
 
 ### 1-1. KPI의 종류
 
@@ -69,24 +69,24 @@ KPI 카드는 핵심 숫자를 가장 빠르게 전달하는 시각화입니다.
 - 총 주문
 - 총 고객
 
-![KPI 총 매출](../assets/04-6/02-1-kpi-sales.png)
+![KPI 총 매출](../assets/04-9/02-1-kpi-sales.png)
 
 - KPI 총 매출
 - 레이블: 합계(매출)
 
-![KPI 총 수익](../assets/04-6/02-1-kpi-profit.png)
+![KPI 총 수익](../assets/04-9/02-1-kpi-profit.png)
 
 - KPI 총 수익
 - 레이블: 합계(수익)
 
-![KPI 총 주문](../assets/04-6/02-1-kpi-orders.png)
+![KPI 총 주문](../assets/04-9/02-1-kpi-orders.png)
 
 - KPI 총 주문
 - 레이블: 카운트(고유)(주문 번호)
 
 `주문 번호`는 주문 건을 식별하는 키이므로 `카운트(고유)`를 사용해야 실제 주문 건수가 계산됩니다.
 
-![KPI 총 고객](../assets/04-6/02-1-kpi-customers.png)
+![KPI 총 고객](../assets/04-9/02-1-kpi-customers.png)
 
 - KPI 총 고객
 - 레이블: 카운트(고유)(고객 번호)

@@ -259,10 +259,10 @@ tableau-book/
 - [4-3. 맵 차트](./pages/04-3-map-chart.md)
 - [4-4. 파이 차트](./pages/04-4-pie-chart.md)
 - [4-5. 트리맵](./pages/04-5-treemap.md)
-- [4-6. KPI 시각화](./pages/04-6-kpi-visualization.md)
-- [4-7. 크로스탭](./pages/04-7-crosstab.md)
-- [4-8. 스캐터 차트](./pages/04-8-scatter-chart.md)
-- [4-9. 이중축을 활용한 시각화](./pages/04-9-dual-axis-visualization.md)
+- [4-6. 크로스탭](./pages/04-6-crosstab.md)
+- [4-7. 스캐터 차트](./pages/04-7-scatter-chart.md)
+- [4-8. 이중축을 활용한 시각화](./pages/04-8-dual-axis-visualization.md)
+- [4-9. KPI 시각화](./pages/04-9-kpi-visualization.md)
 
 ### 05장. 데이터 계산 및 함수
 
