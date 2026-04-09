@@ -86,29 +86,31 @@ Tableau는 설치만으로 바로 사용하는 프로그램이 아니라, 계정
 
 #### 1. Salesforce Authenticator로 인증하는 경우
 
-![Salesforce Authenticator 선택](../assets/02-3/01-3-salesforce-auth-select-v2.png)
+![Salesforce Authenticator 선택](../assets/02-3/01-3-salesforce-auth-select-v3.png)
 
 설정 절차는 다음과 같습니다.
 
-1. 휴대폰에 Salesforce Authenticator 앱을 설치합니다.
+1. 추가 인증 수단 등록 화면에서 `Salesforce Authenticator`를 선택합니다.
+
+2. 휴대폰에 Salesforce Authenticator 앱을 설치합니다.
 
 - Google Play: [Salesforce Authenticator](https://play.google.com/store/apps/details?id=com.salesforce.authenticator)
 - App Store: [Salesforce Authenticator](https://apps.apple.com/us/app/salesforce-authenticator/id782057975)
 
-2. 스마트폰에서 앱을 실행합니다.
+![Salesforce Authenticator 앱 설치](../assets/02-3/01-3-salesforce-auth-add-account-v2.png)
 
-![Salesforce Authenticator 설치](../assets/02-3/01-3-salesforce-auth-install-v2.png)
+3. PC 화면에 `Salesforce Authenticator 연결` 창이 나타나면, 앱 설치 후 계정 추가를 진행하라는 안내를 확인합니다.
 
-3. `Add an Account` 또는 `계정 추가`를 눌러 계정을 추가합니다.
+![Salesforce Authenticator 연결 화면](../assets/02-3/01-3-salesforce-auth-install-v2.png)
 
-![Salesforce Authenticator 계정 추가](../assets/02-3/01-3-salesforce-auth-add-account-v2.png)
+4. 스마트폰에서 앱을 실행한 뒤 `Add an Account` 또는 `계정 추가`를 눌러 계정을 연결합니다.
 
-4. 앱 화면에 표시된 두 단어를 PC 인증창에 입력합니다.
+5. 앱 화면에 표시된 입력 영역에 PC 화면의 두 단어 구문을 입력합니다.
 
-![Salesforce Authenticator 단어 인증](../assets/02-3/01-3-salesforce-auth-words-v2.png)
+![Salesforce Authenticator 계정 연결](../assets/02-3/01-3-salesforce-auth-words-v2.png)
 
-5. 앱에서 갱신되는 확인 코드를 PC 화면에 입력합니다.
-6. 확인 코드와 검증 도구 이름을 설정하면 등록이 완료됩니다.
+6. 연결이 완료되면 앱에서 갱신되는 확인 코드를 PC 화면에 입력합니다.
+7. 확인 코드와 검증 도구 이름을 설정하면 등록이 완료됩니다.
 
 ![Salesforce Authenticator 등록 완료](../assets/02-3/01-3-auth-finish-v2.png)
 
