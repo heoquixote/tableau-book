@@ -239,10 +239,15 @@ tableau-book/
 
 ### 4장. 데이터 시각화
 
-- [4-1. 다양한 차트 시각화](./pages/04-1-chart-visualization.md)
-- [4-2. 크로스탭](./pages/04-2-crosstab.md)
-- [4-3. 스캐터 차트](./pages/04-3-scatter-chart.md)
-- [4-4. 이중축을 활용한 시각화](./pages/04-4-dual-axis-visualization.md)
+- [4-1. 막대차트](./pages/04-1-bar-chart.md)
+- [4-2. 라인차트](./pages/04-2-line-chart.md)
+- [4-3. 맵 차트](./pages/04-3-map-chart.md)
+- [4-4. 파이 차트](./pages/04-4-pie-chart.md)
+- [4-5. 트리맵](./pages/04-5-treemap.md)
+- [4-6. KPI 시각화](./pages/04-6-kpi-visualization.md)
+- [4-7. 크로스탭](./pages/04-7-crosstab.md)
+- [4-8. 스캐터 차트](./pages/04-8-scatter-chart.md)
+- [4-9. 이중축을 활용한 시각화](./pages/04-9-dual-axis-visualization.md)
 
 ### 5장. 데이터 계산 및 함수
 
