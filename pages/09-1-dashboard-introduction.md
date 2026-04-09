@@ -14,7 +14,7 @@
 
 ### 1-1. 대시보드란?
 
-![자동차 계기판 예시](../assets/07-1/05-1-dashboard-origin-car.png)
+![자동차 계기판 예시](../assets/09-1/05-1-dashboard-origin-car.png)
 
 대시보드(Dashboard)라는 말은 원래 자동차나 비행기 운전석 앞에 있는 `계기판`에서 출발한 개념입니다.  
 운전자는 계기판을 통해 속도, 연료, 엔진 상태 같은 핵심 정보를 한눈에 보고 즉시 판단합니다.
@@ -36,7 +36,7 @@
 
 #### 대시보드에 정보가 많다고 좋은 것은 아닙니다
 
-![정보가 과도하게 많은 대시보드 예시](../assets/07-1/05-1-dashboard-overloaded-example.png)
+![정보가 과도하게 많은 대시보드 예시](../assets/09-1/05-1-dashboard-overloaded-example.png)
 
 대시보드는 한 화면에 많은 정보를 담을 수 있지만, 많이 담는다고 항상 좋은 것은 아닙니다.
 
@@ -113,7 +113,7 @@ Tableau에서 `워크시트(Worksheet)`는 하나의 차트나 표를 만드는 
 
 ### 2-2. 전략 대시보드
 
-![전략 대시보드 예시](../assets/07-1/05-1-strategic-dashboard-example.png)
+![전략 대시보드 예시](../assets/09-1/05-1-strategic-dashboard-example.png)
 
 전략 대시보드는 경영진이나 리더십이 조직의 장기 목표와 핵심 KPI를 모니터링하기 위해 사용하는 대시보드입니다.
 
@@ -141,7 +141,7 @@ Tableau에서 `워크시트(Worksheet)`는 하나의 차트나 표를 만드는 
 
 ### 2-3. 분석 대시보드
 
-![분석 대시보드 예시](../assets/07-1/05-1-analytical-dashboard-example.png)
+![분석 대시보드 예시](../assets/09-1/05-1-analytical-dashboard-example.png)
 
 분석 대시보드는 과거 데이터를 심층적으로 탐색하고 원인을 파악하기 위해 사용하는 대시보드입니다.
 
@@ -172,7 +172,7 @@ Tableau에서 `워크시트(Worksheet)`는 하나의 차트나 표를 만드는 
 
 ### 2-4. 운영 대시보드
 
-![운영 대시보드 예시](../assets/07-1/05-1-operational-dashboard-example.png)
+![운영 대시보드 예시](../assets/09-1/05-1-operational-dashboard-example.png)
 
 운영 대시보드는 실무자나 중간 관리자가 현재 업무 상태를 빠르게 확인하고 즉시 대응하기 위해 사용하는 대시보드입니다.
 

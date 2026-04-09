@@ -11,7 +11,7 @@
 
 ### 1-1. 상황 이해
 
-![실습 상황 설명 이미지 삽입 예정](../assets/09-3/04-1-prep-scenario.png)
+![실습 상황 설명 이미지 삽입 예정](../assets/11-3/04-1-prep-scenario.png)
 
 이번 실습에서는 상사가 다음을 요청했다고 가정합니다.
 
@@ -21,7 +21,7 @@
 
 문제는 필요한 데이터가 한 파일에 정리되어 있지 않다는 점입니다.
 
-![실습 원본 파일 구조 이미지 삽입 예정](../assets/09-3/04-1-prep-source-files.png)
+![실습 원본 파일 구조 이미지 삽입 예정](../assets/11-3/04-1-prep-source-files.png)
 
 - 영업 실적 4개년 파일이 각각 따로 존재하고
 - 지역별 관리자 파일이 따로 있으며
@@ -48,9 +48,9 @@ SQL 환경이라면:
 
 으로 해결할 수 있습니다.
 
-![Excel, Python, SQL 전처리 대안 이미지](../assets/09-3/04-1-prep-manual-alternatives.png)
+![Excel, Python, SQL 전처리 대안 이미지](../assets/11-3/04-1-prep-manual-alternatives.png)
 
-![Prep 흐름 예시 이미지 삽입 예정](../assets/09-3/04-1-prep-flow-example.png)
+![Prep 흐름 예시 이미지 삽입 예정](../assets/11-3/04-1-prep-flow-example.png)
 
 Tableau Prep은 이 과정을 시각적 흐름으로 구성합니다.
 
@@ -59,7 +59,7 @@ Tableau Prep은 이 과정을 시각적 흐름으로 구성합니다.
 > 유니온(Union): 데이터를 수직으로 결합합니다.  
 > 조인(Join): 데이터를 수평으로 결합합니다.
 
-![유니온과 조인 차이 이미지 삽입 예정](../assets/09-3/04-1-prep-union-vs-join.png)
+![유니온과 조인 차이 이미지 삽입 예정](../assets/11-3/04-1-prep-union-vs-join.png)
 
 실무에서는 이 둘을 자주 혼동합니다.
 
@@ -72,29 +72,29 @@ Tableau Prep은 이 과정을 시각적 흐름으로 구성합니다.
 
 #### 1. 2021년과 2022년 유니온
 
-![유니온 시작 이미지 삽입 예정](../assets/09-3/04-1-prep-union-step-1.png)
+![유니온 시작 이미지 삽입 예정](../assets/11-3/04-1-prep-union-step-1.png)
 
 `영업 실적 2022년` 파일을 드래그해 `영업 실적 2021년` 위에 올리면 유니온과 조인 중 하나를 선택할 수 있습니다.
 이때 유니온 위에 드롭하면 두 파일이 세로 방향으로 결합됩니다.
 
 #### 2. 유니온 추가
 
-![유니온 완료 이미지 삽입 예정](../assets/09-3/04-1-prep-union-step-2.png)
+![유니온 완료 이미지 삽입 예정](../assets/11-3/04-1-prep-union-step-2.png)
 
 이 상태에서 `영업 실적 2023년`을 같은 방식으로 `유니온 1`에 추가합니다.
 
-![유니온 확장 이미지 삽입 예정](../assets/09-3/04-1-prep-union-step-3.png)
+![유니온 확장 이미지 삽입 예정](../assets/11-3/04-1-prep-union-step-3.png)
 
 이제 `영업 실적 2024년`도 같은 방식으로 추가하면 4개년 데이터가 하나의 유니온 흐름으로 정리됩니다.
 
-![4개년 유니온 완료 이미지 삽입 예정](../assets/09-3/04-1-prep-union-step-4.png)
+![4개년 유니온 완료 이미지 삽입 예정](../assets/11-3/04-1-prep-union-step-4.png)
 
 이렇게 하면 연도별로 분리된 4개 파일을 하나의 테이블처럼 다룰 수 있습니다.
 다음 단계에서는 유니온 결과에서 불일치한 컬럼을 정리합니다.
 
 ### 1-3. 불일치 컬럼 정리
 
-![불일치 컬럼 확인 이미지 삽입 예정](../assets/09-3/04-1-prep-mismatched-fields.png)
+![불일치 컬럼 확인 이미지 삽입 예정](../assets/11-3/04-1-prep-mismatched-fields.png)
 
 유니온 결과를 보면 특정 연도 파일의 필드명이 다른 경우 불일치 경고가 나타날 수 있습니다.
 
@@ -107,11 +107,11 @@ Tableau Prep은 이 과정을 시각적 흐름으로 구성합니다.
 
 #### 불일치 필드 병합
 
-![불일치 필드 병합 1 이미지 삽입 예정](../assets/09-3/04-1-prep-merge-fields-discount.png)
+![불일치 필드 병합 1 이미지 삽입 예정](../assets/11-3/04-1-prep-merge-fields-discount.png)
 
 `할인율`과 `할인`을 하나로 합치고,
 
-![불일치 필드 병합 2 이미지 삽입 예정](../assets/09-3/04-1-prep-merge-fields-profit.png)
+![불일치 필드 병합 2 이미지 삽입 예정](../assets/11-3/04-1-prep-merge-fields-profit.png)
 
 `수익`과 `이익`도 같은 방식으로 합칩니다.
 
@@ -122,18 +122,18 @@ Tableau Prep은 이 과정을 시각적 흐름으로 구성합니다.
 
 #### 1. 지역별 관리자 조인
 
-![관리자 조인 시작 이미지 삽입 예정](../assets/09-3/04-1-prep-join-manager-start.png)
+![관리자 조인 시작 이미지 삽입 예정](../assets/11-3/04-1-prep-join-manager-start.png)
 
 `지역별 관리자` 파일을 `유니온 1` 위에 드래그해 조인합니다.
 
-![관리자 조인 결과 이미지 삽입 예정](../assets/09-3/04-1-prep-join-manager-result.png)
+![관리자 조인 결과 이미지 삽입 예정](../assets/11-3/04-1-prep-join-manager-result.png)
 
 처음에는 일부 값이 조인되지 않을 수 있습니다.  
 예를 들어 `서울경기`와 `수도권`처럼 사실상 같은 의미인데 표기가 달라서 생기는 문제입니다.
 
 #### 2. 조인 키 값 보정
 
-![조인 키 수정 이미지 삽입 예정](../assets/09-3/04-1-prep-join-manager-fix.png)
+![조인 키 수정 이미지 삽입 예정](../assets/11-3/04-1-prep-join-manager-fix.png)
 
 값을 `수도권`으로 통일하면 조인 누락이 해소됩니다.
 
@@ -150,7 +150,7 @@ Tableau Prep은 이 과정을 시각적 흐름으로 구성합니다.
 
 #### 3. 반품 현황 조인
 
-![반품 조인 시작 이미지 삽입 예정](../assets/09-3/04-1-prep-join-returns-start.png)
+![반품 조인 시작 이미지 삽입 예정](../assets/11-3/04-1-prep-join-returns-start.png)
 
 `반품 현황`을 다시 조인하면 기본 조인 유형은 내부 조인으로 잡히는 경우가 많습니다.
 
@@ -158,7 +158,7 @@ Tableau Prep은 이 과정을 시각적 흐름으로 구성합니다.
 
 #### 4. 조인 유형 변경
 
-![조인 유형 변경 이미지 삽입 예정](../assets/09-3/04-1-prep-join-type-left.png)
+![조인 유형 변경 이미지 삽입 예정](../assets/11-3/04-1-prep-join-type-left.png)
 
 따라서 조인 유형을 왼쪽 조인으로 바꿔야 합니다.
 
@@ -174,15 +174,15 @@ Tableau Prep은 이 과정을 시각적 흐름으로 구성합니다.
 
 ### 1-5. 필드 제거
 
-![정리 단계 추가 이미지 삽입 예정](../assets/09-3/04-1-prep-add-clean-step.png)
+![정리 단계 추가 이미지 삽입 예정](../assets/11-3/04-1-prep-add-clean-step.png)
 
 조인까지 끝나면 정리 단계를 추가해 최종 데이터셋을 다듬습니다.
 
-![자동 생성 필드 제거 이미지 삽입 예정](../assets/09-3/04-1-prep-remove-table-names.png)
+![자동 생성 필드 제거 이미지 삽입 예정](../assets/11-3/04-1-prep-remove-table-names.png)
 
 유니온 과정에서 자동 생성된 `Table Names` 같은 필드는 분석에 필요 없으면 제거합니다.
 
-![조인 보조 필드 제거 이미지 삽입 예정](../assets/09-3/04-1-prep-remove-join-helper-fields.png)
+![조인 보조 필드 제거 이미지 삽입 예정](../assets/11-3/04-1-prep-remove-join-helper-fields.png)
 
 마찬가지로 조인 과정에서 생성된 `지역-1`, `주문 번호-1` 같은 보조 필드도 제거합니다.
 
@@ -196,11 +196,11 @@ Tableau Prep은 이 과정을 시각적 흐름으로 구성합니다.
 
 ### 1-6. 데이터 출력
 
-![출력 단계 추가 이미지 삽입 예정](../assets/09-3/04-1-prep-add-output-step.png)
+![출력 단계 추가 이미지 삽입 예정](../assets/11-3/04-1-prep-add-output-step.png)
 
 정리가 끝나면 출력(Output) 단계를 추가합니다.
 
-![출력 형식 선택 이미지 삽입 예정](../assets/09-3/04-1-prep-output-options.png)
+![출력 형식 선택 이미지 삽입 예정](../assets/11-3/04-1-prep-output-options.png)
 
 출력 단계에서는:
 
@@ -212,7 +212,7 @@ Tableau Prep은 이 과정을 시각적 흐름으로 구성합니다.
 
 파일로 출력할 경우, 어떤 형식으로 저장할지도 고를 수 있습니다.
 
-![hyper 출력 이미지 삽입 예정](../assets/09-3/04-1-prep-output-hyper.png)
+![hyper 출력 이미지 삽입 예정](../assets/11-3/04-1-prep-output-hyper.png)
 
 특히 `.hyper` 파일은 Tableau의 데이터 추출 전용 포맷으로, Desktop에서 빠르게 연결하고 활용하기 좋습니다.
 

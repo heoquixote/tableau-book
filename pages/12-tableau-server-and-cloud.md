@@ -8,4 +8,4 @@ Tableau Server와 Tableau Cloud를 통해 대시보드를 게시하고 협업하
 
 ## 세부 목차
 
-- 10-1. Tableau Cloud를 통한 대시보드 공유
+- 12-1. Tableau Cloud를 통한 대시보드 공유

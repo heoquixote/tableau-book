@@ -36,9 +36,9 @@
 1. 열, 행 또는 마크 카드에 직접 입력하는 임시 계산
 2. 데이터 패널에서 `계산된 필드 만들기`를 선택해 정식 필드를 생성하는 방식
 
-![임시 계산 이미지 삽입 예정](../assets/05-2/03-2-temporary-calculation.png)
+![임시 계산 이미지 삽입 예정](../assets/09-1/03-2-temporary-calculation.png)
 
-![계산된 필드 만들기 메뉴 이미지 삽입 예정](../assets/05-2/03-2-calculated-field-editor.png)
+![계산된 필드 만들기 메뉴 이미지 삽입 예정](../assets/09-1/03-2-calculated-field-editor.png)
 
 실무에서는 재사용성과 유지보수 때문에 대부분 두 번째 방식이 더 적합합니다.  
 임시 계산은 빠른 탐색에는 좋지만, 이후 대시보드나 다른 시트에서 다시 쓰기 어렵기 때문입니다.
@@ -86,7 +86,7 @@
 
 ### 2-1. 행 수준 계산(Row-level Calculation)
 
-![행 수준 계산 개념 이미지 삽입 예정](../assets/05-2/03-2-row-level-calculation.png)
+![행 수준 계산 개념 이미지 삽입 예정](../assets/09-1/03-2-row-level-calculation.png)
 
 행 수준 계산은 데이터 소스의 각 행(Row)마다 계산이 수행되는 방식입니다.
 
@@ -110,7 +110,7 @@
 
 ### 2-2. 집계 수준 계산(Aggregate-level Calculation)
 
-![집계 수준 계산 개념 이미지 삽입 예정](../assets/05-2/03-2-aggregate-level-calculation.png)
+![집계 수준 계산 개념 이미지 삽입 예정](../assets/09-1/03-2-aggregate-level-calculation.png)
 
 집계 수준 계산은 데이터가 뷰에서 집계된 뒤 계산되는 방식입니다.
 
@@ -150,7 +150,7 @@ SUM([수익]) / SUM([매출])
 
 다음 실습에서는 같은 수익률 지표를 두 방식으로 계산해 결과 차이를 비교합니다.
 
-![행 수준 vs 집계 수준 비교 이미지 삽입 예정](../assets/05-2/03-2-row-vs-aggregate-comparison.png)
+![행 수준 vs 집계 수준 비교 이미지 삽입 예정](../assets/09-1/03-2-row-vs-aggregate-comparison.png)
 
 #### 행 수준 계산식
 
@@ -168,11 +168,11 @@ SUM([수익]) / SUM([매출])
 
 #### 행 수준 계산 시
 
-![행 수준 계산 결과 이미지 삽입 예정](../assets/05-2/03-2-row-level-result.png)
+![행 수준 계산 결과 이미지 삽입 예정](../assets/09-1/03-2-row-level-result.png)
 
 #### 집계 수준 계산 시
 
-![집계 수준 계산 결과 이미지 삽입 예정](../assets/05-2/03-2-aggregate-level-result.png)
+![집계 수준 계산 결과 이미지 삽입 예정](../assets/09-1/03-2-aggregate-level-result.png)
 
 시각화 구성은 다음과 같습니다.
 
