@@ -21,32 +21,32 @@
 
 ## 1. 통합 문서 합치기
 
-![통합 문서 합치기 개념](../assets/07-2/04-3-workbook-merge-concept.png)
+![통합 문서 합치기 개념](../assets/07-4/04-3-workbook-merge-concept.png)
 
 대시보드를 여러 명이 나눠 작업하면 각각 `.twb` 또는 `.twbx` 파일이 생깁니다.  
 이때 결과를 하나의 통합 문서로 모으고 싶다면, 시트를 다시 만드는 대신 기존 통합 문서를 가져와 시트 단위로 복사하면 됩니다.
 
 ### 1-1. 통합 문서 가져오기
 
-![통합 문서 가져오기 메뉴](../assets/07-2/04-3-import-workbook-menu.png)
+![통합 문서 가져오기 메뉴](../assets/07-4/04-3-import-workbook-menu.png)
 
 `파일(File)` 메뉴의 `통합 문서 가져오기(Import Workbook)`를 사용하면 다른 Tableau 통합 문서를 현재 파일 안으로 불러올 수 있습니다.
 
 ### 1-2. 시트 복사
 
-![워크시트 복사](../assets/07-2/04-3-workbook-copy.png)
+![워크시트 복사](../assets/07-4/04-3-workbook-copy.png)
 
 가져온 통합 문서의 시트 탭에서 원하는 워크시트나 대시보드를 복사합니다.
 
 ### 1-3. 현재 통합 문서에 붙여넣기
 
-![워크시트 붙여넣기](../assets/07-2/04-3-workbook-paste.png)
+![워크시트 붙여넣기](../assets/07-4/04-3-workbook-paste.png)
 
 붙여넣기를 하면 해당 시트가 현재 통합 문서로 들어옵니다.
 
 ## 2. 데이터 원본 바꾸기
 
-![데이터 원본 바꾸기 메뉴](../assets/07-2/04-3-change-data-source-menu.png)
+![데이터 원본 바꾸기 메뉴](../assets/07-4/04-3-change-data-source-menu.png)
 
 데이터 원본 바꾸기는 기존 시트를 최대한 유지한 채, 연결된 데이터 소스만 다른 원본으로 교체하는 기능입니다.
 
@@ -57,7 +57,7 @@
 3. 현재 사용 중인 데이터 원본과 새로 교체할 데이터 원본을 지정합니다.
 4. 확인을 누르면 기존 시트가 새 데이터 원본 기준으로 다시 연결됩니다.
 
-![데이터 원본 바꾸기 대화상자](../assets/07-2/04-3-change-data-source-dialog.png)
+![데이터 원본 바꾸기 대화상자](../assets/07-4/04-3-change-data-source-dialog.png)
 
 ### 2-2. 주의할 점
 
@@ -70,7 +70,7 @@
 
 ## 3. 참조 바꾸기
 
-![참조 바꾸기 메뉴](../assets/07-2/04-3-replace-references-menu.png)
+![참조 바꾸기 메뉴](../assets/07-4/04-3-replace-references-menu.png)
 
 참조 바꾸기는 데이터 원본 전체를 바꾸는 기능이 아니라, `특정 필드가 참조하는 대상을 다른 필드로 교체하는 기능`입니다.
 
@@ -86,7 +86,7 @@
 2. `참조 바꾸기(Replace References)`를 선택합니다.
 3. 대체할 필드를 선택한 뒤 확인합니다.
 
-![참조 바꾸기 대화상자](../assets/07-2/04-3-replace-references-dialog.png)
+![참조 바꾸기 대화상자](../assets/07-4/04-3-replace-references-dialog.png)
 
 ### 3-2. 데이터 원본 바꾸기와의 차이
 

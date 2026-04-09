@@ -12,9 +12,9 @@
 
 ## 1. 태블로 작업 순서
 
-![Tableau 작업 순서](../assets/07-1/04-2-tableau-order-of-operations.png)
+![Tableau 작업 순서](../assets/07-3/04-2-tableau-order-of-operations.png)
 
-![필터 적용 순서 개요](../assets/07-1/04-2-order-of-operations-simple.png)
+![필터 적용 순서 개요](../assets/07-3/04-2-order-of-operations-simple.png)
 
 Tableau는 사용자가 화면에서 필터를 여러 개 올려둔다고 해서, 그 필터들을 모두 같은 시점에 처리하지 않습니다. 내부적으로는 정해진 순서에 따라 데이터를 줄이고, 집계하고, 계산합니다. 이 순서를 이해하지 못하면 “왜 필터를 걸었는데 값이 바뀌지 않지?” 혹은 “왜 Top N이 이상하게 나오지?” 같은 문제가 반복됩니다.
 
@@ -29,7 +29,7 @@ Tableau는 사용자가 화면에서 필터를 여러 개 올려둔다고 해서
 
 즉, 추출 필터는 “나중에 걸러내는 필터”가 아니라 “애초에 가져오지 않는 필터”입니다. 데이터 용량이 크고, 특정 기간이나 특정 국가 데이터만 필요하다면 가장 먼저 고려할 수 있는 필터입니다.
 
-![증분 새로고침](../assets/07-1/04-2-incremental-refresh.png)
+![증분 새로고침](../assets/07-3/04-2-incremental-refresh.png)
 
 증분 새로고침은 Tableau 추출에서 `새로운 데이터만 추가`하는 최적화 기능입니다. 일반적으로 날짜 필드나 증가하는 ID 필드를 기준으로 설정합니다.
 
@@ -82,7 +82,7 @@ Tableau는 사용자가 화면에서 필터를 여러 개 올려둔다고 해서
 
 ### 3-1. Top N과 함께 사용할 때
 
-![Context 필터와 Top N](../assets/07-1/04-2-context-filter-topn.png)
+![Context 필터와 Top N](../assets/07-3/04-2-context-filter-topn.png)
 
 예를 들어 “제품 중분류가 의자인 제품 중 상위 10개 제품명”을 보고 싶다고 하겠습니다.
 
@@ -96,7 +96,7 @@ Tableau는 사용자가 화면에서 필터를 여러 개 올려둔다고 해서
 
 ### 3-2. FIXED LOD와 함께 사용할 때
 
-![Context 필터와 FIXED LOD](../assets/07-1/04-2-context-filter-fixed-lod.png)
+![Context 필터와 FIXED LOD](../assets/07-3/04-2-context-filter-fixed-lod.png)
 
 예를 들어 `고객 세그먼트` 필터를 걸고도 시도별 매출 FIXED 결과가 필터에 맞춰 바뀌게 하고 싶다면, 고객 세그먼트 필터를 컨텍스트 필터로 올려야 합니다.
 
