@@ -28,7 +28,7 @@ Tableau는 설치만으로 바로 사용하는 프로그램이 아니라, 계정
 | 메이플스토리 | Tableau |
 | --- | --- |
 | 넥슨 ID 로그인 | Tableau.com 계정 생성 |
-| 서버 선택 | Teamsparta Tableau Cloud 접속 |
+| 서버 선택 | Tableau Cloud 접속 |
 | 2차 인증 | MFA 등록 및 인증 |
 | 게임 접속 완료 | Tableau Desktop 활성화 후 사용 시작 |
 

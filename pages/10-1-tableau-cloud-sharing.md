@@ -4,10 +4,6 @@
 - Tableau Cloud의 주요 화면과 콘텐츠 구조를 이해할 수 있습니다.
 - Tableau Cloud에서 공유, 권한, 버전 관리 등 협업 기능을 활용할 수 있습니다.
 
-## 사용 프로그램
-
-`Tableau Desktop`, `Tableau Cloud`
-
 ## 목차
 
 1. Tableau Cloud를 통한 대시보드 공유

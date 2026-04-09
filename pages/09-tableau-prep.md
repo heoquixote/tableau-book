@@ -8,6 +8,6 @@ Tableau Prep을 활용해 데이터를 정리하고, 결합하고, 분석 가능
 
 ## 세부 목차
 
-- 9-1. Tableau Prep 소개
-- 9-2. Tableau Prep 다운로드
-- 9-3. Tableau Prep을 활용한 데이터 전처리
+- 09-1. Tableau Prep 소개
+- 09-2. Tableau Prep 다운로드
+- 09-3. Tableau Prep을 활용한 데이터 전처리

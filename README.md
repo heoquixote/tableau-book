@@ -1,9 +1,9 @@
 # 태블로를 활용한 데이터 시각화
 
-Tableau 입문부터 대시보드 설계, 데이터 계산, Tableau Cloud 공유까지 한 흐름으로 정리한 원고 저장소입니다.  
-기능을 단순히 나열하기보다, 실무에서 왜 이 기능을 쓰는지와 어떤 상황에서 문제가 생기는지까지 함께 설명하는 방향으로 구성했습니다.
+차트만 만드는 법이 아니라, `왜 이 화면을 그렇게 만들어야 하는지`까지 설명하는 Tableau 실전 학습 저장소입니다.  
+설치, 시각화, 계산, 전처리, 대시보드, Cloud 공유까지 실무 흐름대로 한 번에 익힐 수 있도록 구성했습니다.
 
-## 이 저장소에서 다루는 내용
+## 이 저장소에서 다루는 핵심 주제
 
 - Tableau와 BI 관점 이해
 - Tableau UI와 기본 필드 개념
@@ -229,70 +229,70 @@ tableau-book/
 
 ## 문서 링크
 
-### 1장. Tableau 개념
+### 01장. Tableau 개념
 
-- [1-1. 시각적 분석(Visual Analytics)](./pages/01-1-visual-analytics.md)
-- [1-2. 비즈니스 인텔리전스란?](./pages/01-2-bi-overview.md)
-- [1-3. Tableau란?](./pages/01-3-what-is-tableau.md)
-- [1-4. 태블로의 장점](./pages/01-4-tableau-benefits.md)
+- [01-1. 시각적 분석(Visual Analytics)](./pages/01-1-visual-analytics.md)
+- [01-2. 비즈니스 인텔리전스란?](./pages/01-2-bi-overview.md)
+- [01-3. Tableau란?](./pages/01-3-what-is-tableau.md)
+- [01-4. 태블로의 장점](./pages/01-4-tableau-benefits.md)
 
-### 2장. Tableau 설치
+### 02장. Tableau 설치
 
-- [2-1. Tableau Desktop 설치](./pages/02-1-tableau-desktop-installation.md)
-- [2-2. Tableau Desktop Public Edition 설치](./pages/02-2-tableau-public-edition-installation.md)
-- [2-3. Tableau 라이선스 활성화](./pages/02-3-tableau-license-activation.md)
-- [2-4. 실습 데이터 소개](./pages/02-4-practice-dataset-introduction.md)
+- [02-1. Tableau Desktop 설치](./pages/02-1-tableau-desktop-installation.md)
+- [02-2. Tableau Desktop Public Edition 설치](./pages/02-2-tableau-public-edition-installation.md)
+- [02-3. Tableau 라이선스 활성화](./pages/02-3-tableau-license-activation.md)
+- [02-4. 실습 데이터 소개](./pages/02-4-practice-dataset-introduction.md)
 
-### 3장. Tableau UI 및 기본 기능
+### 03장. Tableau UI 및 기본 기능
 
-- [3-1. Tableau UI 설명](./pages/03-1-tableau-ui-overview.md)
-- [3-2. 필드 아이콘](./pages/03-2-field-icons.md)
-- [3-3. 차원과 측정값](./pages/03-3-dimension-and-measure.md)
-- [3-4. 정렬](./pages/03-4-sort.md)
-- [3-5. 필터](./pages/03-5-filter.md)
-- [3-6. Tableau 시각화 방법](./pages/03-6-tableau-visualization-methods.md)
+- [03-1. Tableau UI 설명](./pages/03-1-tableau-ui-overview.md)
+- [03-2. 필드 아이콘](./pages/03-2-field-icons.md)
+- [03-3. 차원과 측정값](./pages/03-3-dimension-and-measure.md)
+- [03-4. 정렬](./pages/03-4-sort.md)
+- [03-5. 필터](./pages/03-5-filter.md)
+- [03-6. Tableau 시각화 방법](./pages/03-6-tableau-visualization-methods.md)
 
-### 4장. 데이터 시각화
+### 04장. 데이터 시각화
 
-- [4-1. 막대차트](./pages/04-1-bar-chart.md)
-- [4-2. 라인차트](./pages/04-2-line-chart.md)
-- [4-3. 맵 차트](./pages/04-3-map-chart.md)
-- [4-4. 파이 차트](./pages/04-4-pie-chart.md)
-- [4-5. 트리맵](./pages/04-5-treemap.md)
-- [4-6. KPI 시각화](./pages/04-6-kpi-visualization.md)
-- [4-7. 크로스탭](./pages/04-7-crosstab.md)
-- [4-8. 스캐터 차트](./pages/04-8-scatter-chart.md)
-- [4-9. 이중축을 활용한 시각화](./pages/04-9-dual-axis-visualization.md)
+- [04-1. 막대차트](./pages/04-1-bar-chart.md)
+- [04-2. 라인차트](./pages/04-2-line-chart.md)
+- [04-3. 맵 차트](./pages/04-3-map-chart.md)
+- [04-4. 파이 차트](./pages/04-4-pie-chart.md)
+- [04-5. 트리맵](./pages/04-5-treemap.md)
+- [04-6. KPI 시각화](./pages/04-6-kpi-visualization.md)
+- [04-7. 크로스탭](./pages/04-7-crosstab.md)
+- [04-8. 스캐터 차트](./pages/04-8-scatter-chart.md)
+- [04-9. 이중축을 활용한 시각화](./pages/04-9-dual-axis-visualization.md)
 
-### 5장. 데이터 계산 및 함수
+### 05장. 데이터 계산 및 함수
 
-- [5-1. 데이터 필드 생성 및 활용](./pages/05-1-field-creation.md)
-- [5-2. 계산된 필드와 계산 수준](./pages/05-2-calculated-fields-and-lod.md)
-- [5-3. 매개변수와 계산식](./pages/05-3-parameters-and-calculations.md)
-- [5-4. 계산식 주요 함수 정리](./pages/05-4-core-functions.md)
+- [05-1. 데이터 필드 생성 및 활용](./pages/05-1-field-creation.md)
+- [05-2. 계산된 필드와 계산 수준](./pages/05-2-calculated-fields-and-lod.md)
+- [05-3. 매개변수와 계산식](./pages/05-3-parameters-and-calculations.md)
+- [05-4. 계산식 주요 함수 정리](./pages/05-4-core-functions.md)
 
-### 6장. 데이터 결합, 정리, 변형
+### 06장. 데이터 결합, 정리, 변형
 
-- [6-1. 태블로 작업 순서와 라이브 vs 추출](./pages/06-1-live-vs-extract.md)
-- [6-2. 데이터 원본 편집](./pages/06-2-data-source-editing.md)
+- [06-1. 태블로 작업 순서와 라이브 vs 추출](./pages/06-1-live-vs-extract.md)
+- [06-2. 데이터 원본 편집](./pages/06-2-data-source-editing.md)
 
-### 7장. 대시보드 구축 및 공유
+### 07장. 대시보드 구축 및 공유
 
-- [7-1. 대시보드 소개](./pages/07-1-dashboard-introduction.md)
-- [7-2. 대시보드 화면 구성 및 디자인](./pages/07-2-dashboard-layout-and-design.md)
-- [7-3. 대시보드 구성 실습](./pages/07-3-dashboard-workshop.md)
-- [7-4. 대시보드 동작 및 도구 설명](./pages/07-4-dashboard-actions-and-tools.md)
-- [7-5. 대시보드 저장 및 공유](./pages/07-5-save-and-share-dashboard.md)
+- [07-1. 대시보드 소개](./pages/07-1-dashboard-introduction.md)
+- [07-2. 대시보드 화면 구성 및 디자인](./pages/07-2-dashboard-layout-and-design.md)
+- [07-3. 대시보드 구성 실습](./pages/07-3-dashboard-workshop.md)
+- [07-4. 대시보드 동작 및 도구 설명](./pages/07-4-dashboard-actions-and-tools.md)
+- [07-5. 대시보드 저장 및 공유](./pages/07-5-save-and-share-dashboard.md)
 
-### 8장. 태블로를 활용한 고급 분석
+### 08장. 태블로를 활용한 고급 분석
 
 - 추후 추가 예정
 
-### 9장. Tableau Prep을 활용한 데이터 전처리
+### 09장. Tableau Prep을 활용한 데이터 전처리
 
-- [9-1. Tableau Prep 소개](./pages/09-1-tableau-prep-introduction.md)
-- [9-2. Tableau Prep 다운로드](./pages/09-2-tableau-prep-download.md)
-- [9-3. Tableau Prep을 활용한 데이터 전처리](./pages/09-3-tableau-preprocessing-with-tableau-prep.md)
+- [09-1. Tableau Prep 소개](./pages/09-1-tableau-prep-introduction.md)
+- [09-2. Tableau Prep 다운로드](./pages/09-2-tableau-prep-download.md)
+- [09-3. Tableau Prep을 활용한 데이터 전처리](./pages/09-3-tableau-preprocessing-with-tableau-prep.md)
 
 ### 10장. Tableau Server / Tableau Cloud
 
