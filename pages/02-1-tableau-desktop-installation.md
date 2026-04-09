@@ -5,11 +5,11 @@
 
 ## 목차
 
-1. Tableau Desktop 설치
+1. 다운로드 페이지 접속
+2. 설치 파일 다운로드
+3. Tableau Desktop 설치
 
-## 1. Tableau Desktop 설치
-
-### 1-1. 다운로드 페이지 접속
+## 1. 다운로드 페이지 접속
 
 이제 Tableau Desktop을 설치합니다.
 
@@ -27,7 +27,7 @@
 
 ![Tableau 로그인 이미지 삽입 예정](../assets/02-1/01-3-desktop-sign-in.png)
 
-### 1-2. 설치 파일 다운로드
+## 2. 설치 파일 다운로드
 
 운영 체제에 맞는 설치 파일을 다운로드합니다.
 
@@ -36,7 +36,7 @@
 
 ![운영체제별 다운로드 이미지 삽입 예정](../assets/02-1/01-3-desktop-os-download.png)
 
-### 1-3. Tableau Desktop 설치
+## 3. Tableau Desktop 설치
 
 1. 설치 동의 후 설치를 진행합니다.
 
