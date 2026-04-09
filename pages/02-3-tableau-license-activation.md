@@ -15,7 +15,7 @@
 
 Tableau는 설치만으로 바로 사용하는 프로그램이 아니라, 계정과 권한, 인증 과정을 함께 거쳐야 정상적으로 사용할 수 있는 서비스형 도구입니다. 실무에서는 보통 아래 흐름으로 활성화가 진행됩니다.
 
-![태블로 인증 과정](../assets/02-3/01-3-tableau-auth-flow-updated-v3.png)
+![태블로 인증 과정](../assets/02-3/01-3-tableau-auth-flow-updated-v4.png)
 
 1. Tableau Cloud 초대 메일을 받고 계정을 활성화합니다.
 2. 이름과 비밀번호를 설정한 뒤 Cloud에 로그인합니다.
