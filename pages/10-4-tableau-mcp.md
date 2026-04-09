@@ -1,59 +1,112 @@
 ## 학습 목표
 
-- Tableau MCP의 개념과 목적을 설명할 수 있습니다.
-- Tableau MCP와 Tableau Next MCP의 차이를 구분할 수 있습니다.
-- Tableau 기능을 외부 AI 에이전트에 연결할 때 MCP가 왜 중요한지 이해할 수 있습니다.
+- Tableau MCP의 개념과 역할을 이해할 수 있습니다.
+- Tableau MCP가 LLM과 Tableau Cloud 사이에서 어떤 역할을 하는지 설명할 수 있습니다.
+- Tableau MCP 연결에 필요한 기본 구성 요소를 이해할 수 있습니다.
 
 ## 목차
 
 1. Tableau MCP란?
-2. Tableau MCP가 하는 일
-3. Tableau Next MCP와의 차이
-4. 실무에서 왜 중요한가?
+2. Tableau MCP 아키텍처 구조
+3. Tableau MCP가 실제로 하는 일
+4. MCP 연결 설정
 
-## 1. Tableau MCP란?
+## 1. Tableau MCP란? 2025년 11월 공개
 
-Tableau MCP는 Tableau 기능을 외부 AI 에이전트나 애플리케이션과 연결하기 위한 Model Context Protocol 기반 인터페이스입니다.  
-공식 AI 소개 페이지와 Tableau AI 관련 블로그에서는 Tableau MCP를 통해 커스텀 AI 에이전트가 Tableau의 데이터 질문 응답, 거버넌스된 분석, 메타데이터 해석 보조 기능을 활용할 수 있다고 설명합니다.
+[GitHub - tableau/tableau-mcp](https://github.com/tableau/tableau-mcp)
 
-즉, Tableau MCP는 “Tableau 안에서 AI를 쓰는 기능”이라기보다, `외부 AI가 Tableau를 안전하게 활용하게 만드는 연결 계층`에 가깝습니다.
+Tableau MCP(Model Context Protocol)는 LLM(Claude 등)이 Tableau Cloud에 있는 데이터, 대시보드, 이미지를 API를 통해 안전하게 조회·분석하도록 중간에서 연결해 주는 Bridge 레이어입니다.
 
-## 2. Tableau MCP가 하는 일
+즉, AI가 Tableau에 직접 접속하는 것이 아니라, `MCP 서버를 통해 허용된 기능만 호출`하고 그 결과를 다시 AI가 해석·요약하는 구조입니다.
 
-공식 설명 기준으로 Tableau MCP는 다음 방향에 초점이 있습니다.
+핵심은 다음과 같습니다.
 
-- 게시된 데이터 원본 기반 데이터 질문 응답
-- 거버넌스된 분석 수행
-- Pulse 지표 활용
-- Tableau 메타데이터 기반 해석 보강
+- Tableau 자산을 AI가 직접 임의 접근하지 않음
+- MCP 서버가 허용된 범위의 기능만 노출
+- AI는 그 결과를 받아 요약과 설명을 수행
 
-2025.2 기능 소개에서는 Tableau MCP가 OAuth를 지원하고, Tableau Pulse 도구를 MCP 호환 에이전트에 연결할 수 있다고 안내합니다.
+즉, Tableau MCP는 단순한 API 래퍼가 아니라 `AI와 Tableau 사이의 안전한 실행 통로`라고 이해하시면 됩니다.
 
-즉, MCP는 단순 API 호출보다 `에이전트가 이해하기 쉬운 형태로 Tableau 기능을 노출`하는 역할을 합니다.
+## 2. Tableau MCP 아키텍처 구조
 
-## 3. Tableau Next MCP와의 차이
+구조는 다음과 같이 이해할 수 있습니다.
 
-공식 자료에서는 `Tableau MCP`와 `Tableau Next MCP`를 구분해 설명합니다.
+```text
+사용자 질문
+  ↓
+Claude Desktop (LLM)
+  ↓
+Tableau MCP (Bridge)
+  ↓
+Tableau Cloud
+```
 
-| 구분 | Tableau MCP | Tableau Next MCP |
-| --- | --- | --- |
-| 중심 대상 | Tableau Cloud / Server 기반 기능 연결 | Tableau Next 기반 에이전트 분석 연결 |
-| 초점 | 데이터 질문, Pulse, 메타데이터, 결정적 분석 | 더 복잡한 대화형 분석과 에이전트형 분석 |
-| 활용 방향 | 기존 Tableau 자산을 AI 에이전트에 연결 | Tableau Next 분석 경험을 AI 에이전트에 연결 |
+이 구조에서 중요한 점은 역할 분리입니다.
 
-실무에서는 “현재 운영 중인 Tableau Cloud/Server 자산을 AI와 연결하고 싶은가”, 아니면 “Tableau Next 기반의 더 확장된 agentic analytics를 다루고 싶은가”로 구분해서 보는 편이 이해하기 쉽습니다.
+- 사용자는 자연어로 질문합니다.
+- LLM은 질문을 해석합니다.
+- Tableau MCP는 실제로 허용된 도구 호출을 담당합니다.
+- Tableau Cloud는 데이터와 대시보드 자산을 제공합니다.
 
-## 4. 실무에서 왜 중요한가?
+즉, LLM은 해석과 요약을 담당하고, 실제 데이터 접근은 MCP가 통제하는 구조입니다.
 
-MCP가 중요한 이유는 AI 에이전트가 데이터에 접근할 때 가장 큰 문제가 다음 두 가지이기 때문입니다.
+## 3. Tableau MCP가 실제로 하는 일
 
-- 신뢰할 수 있는 데이터에 어떻게 연결할 것인가
-- 권한과 거버넌스를 어떻게 유지할 것인가
+### 3-1. 데이터 조회
 
-Tableau MCP는 이 지점에서 의미가 있습니다.
+Tableau Cloud에 있는 데이터 자산을 조회할 수 있습니다.
 
-- 이미 조직 안에서 관리되는 Tableau 자산을 재활용할 수 있고
-- Pulse, 메타데이터, 게시된 데이터 원본 같은 자산을 AI에 연결할 수 있으며
-- 보안과 접근 제어를 더 체계적으로 유지할 수 있습니다
+예를 들어:
 
-즉, MCP는 “AI가 데이터를 잘 말하게 하는 기능”이 아니라, `조직의 신뢰된 분석 자산을 AI 워크플로에 연결하는 운영 계층`이라고 이해하시면 됩니다.
+- 특정 지표 값 조회
+- 게시된 데이터 원본 기반 정보 확인
+- 대시보드 뒤에 있는 데이터 결과 확인
+
+### 3-2. 대시보드 이미지 조회
+
+게시된 대시보드나 뷰의 이미지를 가져와서 AI가 화면을 바탕으로 설명하도록 도울 수 있습니다.
+
+즉, 숫자 데이터뿐 아니라 `시각화 결과 자체`를 함께 해석하는 흐름이 가능합니다.
+
+### 3-3. 결과 전달
+
+MCP가 데이터를 직접 해석해서 최종 답을 만드는 것이 아니라, 조회 결과를 LLM 쪽에 전달하면 LLM이 그 결과를 요약하고 설명합니다.
+
+즉:
+
+- Tableau MCP: 조회와 연결
+- LLM: 해석과 설명
+
+으로 역할이 나뉩니다.
+
+## 4. MCP 연결 설정
+
+기본적으로 다음 준비가 필요합니다.
+
+- Tableau Cloud 계정
+- PAT 발급
+- Node.js
+- Claude Desktop
+- MCP 서버 실행
+
+설정 예시는 다음과 같습니다.
+
+```json
+{
+  "mcpServers": {
+    "tableau": {
+      "command": "npx",
+      "args": ["-y", "@tableau/mcp-server@latest"],
+      "env": {
+        "SERVER": "https://your-tableau-server.com",
+        "SITE_NAME": "your_site",
+        "PAT_NAME": "mcp_demo",
+        "PAT_VALUE": "********"
+      }
+    }
+  }
+}
+```
+
+실무적으로는 여기서 `PAT_VALUE`, 서버 주소, 사이트 이름 같은 인증 정보 관리가 가장 중요합니다.  
+즉, Tableau MCP는 연결만 되면 끝나는 기능이 아니라, `권한과 인증을 안전하게 관리하면서 AI와 Tableau를 연결하는 운영 설정`까지 포함하는 개념입니다.
