@@ -10,7 +10,7 @@
 
 Tableau를 처음 사용할 때는 화면이 다소 복잡해 보일 수 있습니다. 하지만 각 영역의 역할을 이해하면, 어떤 기능이 어디에 있는지 빠르게 익숙해질 수 있습니다.
 
-![Tableau UI 전체 구조 이미지 삽입 예정](../assets/01-4-tableau-ui-overview.png)
+![Tableau UI 전체 구조 이미지 삽입 예정](../assets/03-1/01-4-tableau-ui-overview.png)
 
 | 번호 | 한국어 명칭 | 설명 |
 | --- | --- | --- |

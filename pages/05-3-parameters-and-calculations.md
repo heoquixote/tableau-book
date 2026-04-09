@@ -13,7 +13,7 @@
 
 ### 1-1. 매개변수란?
 
-![매개변수 개념 이미지 삽입 예정](../assets/03-3-parameter-concept.png)
+![매개변수 개념 이미지 삽입 예정](../assets/05-3/03-3-parameter-concept.png)
 
 매개변수(Parameter)는 사용자가 직접 지정한 하나의 값을 저장하는 변수입니다.
 
@@ -46,7 +46,7 @@
 
 ### 1-2. 매개변수와 계산식을 활용한 뷰 구성
 
-![매개변수 활용 뷰 이미지 삽입 예정](../assets/03-3-parameter-view-example.png)
+![매개변수 활용 뷰 이미지 삽입 예정](../assets/05-3/03-3-parameter-view-example.png)
 
 이 실습에서는 사용자가 직접:
 
@@ -61,7 +61,7 @@
 
 #### 차원 선택 계산식
 
-![차원 선택 계산식 이미지 삽입 예정](../assets/03-3-dimension-parameter.png)
+![차원 선택 계산식 이미지 삽입 예정](../assets/05-3/03-3-dimension-parameter.png)
 
 ```tableau
 // C_차원 선택
@@ -78,7 +78,7 @@ END
 
 #### 측정값 선택 계산식
 
-![측정값 선택 계산식 이미지 삽입 예정](../assets/03-3-measure-parameter.png)
+![측정값 선택 계산식 이미지 삽입 예정](../assets/05-3/03-3-measure-parameter.png)
 
 ```tableau
 /* CASE문
@@ -141,7 +141,7 @@ SUM([C_측정값 선택]) >= [P_참조선 선택]
 
 증감비는 기준 시점 대비 비교 시점의 변화율을 백분율(%)로 나타낸 값입니다.
 
-![증감비 계산식 이미지 삽입 예정](../assets/03-3-growth-rate-formula.png)
+![증감비 계산식 이미지 삽입 예정](../assets/05-3/03-3-growth-rate-formula.png)
 
 일반적인 계산식은 다음과 같습니다.
 
@@ -183,15 +183,15 @@ SUM([C_측정값 선택]) >= [P_참조선 선택]
 
 ### 2-2. KPI 전년비 지표 계산
 
-![KPI 전년비 예시 이미지 삽입 예정](../assets/03-3-yoy-kpi-example.png)
+![KPI 전년비 예시 이미지 삽입 예정](../assets/05-3/03-3-yoy-kpi-example.png)
 
 이 실습에서는 사용자가 `P_년도` 매개변수로 기준 연도를 선택하면, 해당 연도의 매출과 전년도 매출을 비교해 전년비를 계산합니다.
 
 #### 매개변수 표시 형식
 
-![매개변수 표시 형식 이미지 삽입 예정](../assets/03-3-parameter-display-format.png)
+![매개변수 표시 형식 이미지 삽입 예정](../assets/05-3/03-3-parameter-display-format.png)
 
-![매개변수 표시 형식 상세 이미지 삽입 예정](../assets/03-3-parameter-display-format-detail.png)
+![매개변수 표시 형식 상세 이미지 삽입 예정](../assets/05-3/03-3-parameter-display-format-detail.png)
 
 매개변수는 내부적으로는 값(value)로 동작하지만, 화면에는 표시 형식(display as)으로 보여줄 수 있습니다.
 

@@ -15,7 +15,7 @@
 
 [KRSuperstore Sample 2025 데이터 다운로드](https://www.kaggle.com/datasets/heoquixote/krsuperstore-sample-2025/data)
 
-![KRSuperstore Sample 실습 데이터 소개](../assets/02-4-krsuperstore-sample.png)
+![KRSuperstore Sample 실습 데이터 소개](../assets/02-4/02-4-krsuperstore-sample.png)
 
 이 데이터가 자주 사용되는 이유는 다음과 같습니다.
 
@@ -25,7 +25,7 @@
 
 ### 1-1. 데이터 구성
 
-![KRSuperstore Sample 엑셀 데이터 예시](../assets/01-4-practice-dataset-overview.png)
+![KRSuperstore Sample 엑셀 데이터 예시](../assets/02-4/01-4-practice-dataset-overview.png)
 
 - 주문 관련: 주문 번호, 주문 일자, 배송 일자, 배송 방법
 - 고객 관련: 고객 번호, 고객명, 고객 세그먼트, 국가, 시도, 시군구

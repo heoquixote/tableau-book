@@ -12,7 +12,7 @@
 날짜 필드는 Tableau에서 특히 중요합니다.  
 같은 날짜라도 `불연속형`으로 쓸지 `연속형`으로 쓸지에 따라 차트의 구조가 완전히 달라집니다.
 
-![연속형과 불연속형 날짜 이미지 삽입 예정](../assets/02-1-discrete-vs-continuous-date.png)
+![연속형과 불연속형 날짜 이미지 삽입 예정](../assets/03-7/02-1-discrete-vs-continuous-date.png)
 
 ### 1-1. 불연속형 날짜(Discrete Date)
 
