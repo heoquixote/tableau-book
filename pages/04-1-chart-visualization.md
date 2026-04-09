@@ -4,12 +4,6 @@
 - 데이터에 적합한 차트를 선택하여 시각화할 수 있습니다.
 - Tableau에서 기본 차트를 직접 만들고 전달력을 높이는 방법을 익힙니다.
 
-## 사용 데이터 및 실습 파일
-
-실습에는 Superstore 기반 샘플 데이터와 Tableau 통합 문서를 사용합니다.
-
-실습 파일 다운로드: [Kaggle - KR Superstore Sample 2025](https://www.kaggle.com/datasets/heoquixote/krsuperstore-sample-2025/data)
-
 ## 목차
 
 1. 다양한 차트 시각화

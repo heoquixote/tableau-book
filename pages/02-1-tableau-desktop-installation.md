@@ -6,7 +6,6 @@
 ## 목차
 
 1. Tableau Desktop 설치
-2. Tableau Desktop Public Edition
 
 ## 1. Tableau Desktop 설치
 

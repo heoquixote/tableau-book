@@ -4,12 +4,6 @@
 - 유니온, 조인, 정리, 출력 단계를 활용해 전처리 흐름을 설계할 수 있습니다.
 - 필드 불일치, 조인 누락, 불필요 필드 제거 같은 실무형 전처리 이슈를 해결할 수 있습니다.
 
-## 사용 데이터 및 실습 파일
-
-실습에는 4개년 영업 실적 파일, 지역별 관리자 파일, 반품 현황 파일을 사용합니다.
-
-실습 파일 다운로드: [Kaggle - KR Superstore Sample 2025](https://www.kaggle.com/datasets/heoquixote/krsuperstore-sample-2025/data)
-
 ## 목차
 
 1. Tableau Prep 소개 및 다운로드

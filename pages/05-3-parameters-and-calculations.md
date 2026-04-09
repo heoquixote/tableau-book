@@ -4,12 +4,6 @@
 - Top N 분석을 위한 매개변수를 직접 만들어 활용할 수 있습니다.
 - 전년 대비 증감 비율을 계산하여 KPI 카드를 만들 수 있습니다.
 
-## 사용 데이터 및 실습 파일
-
-실습에는 Superstore 기반 샘플 데이터와 Tableau 통합 문서를 사용합니다.
-
-실습 파일 다운로드: [Kaggle - KR Superstore Sample 2025](https://www.kaggle.com/datasets/heoquixote/krsuperstore-sample-2025/data)
-
 ## 목차
 
 1. 매개변수와 계산식

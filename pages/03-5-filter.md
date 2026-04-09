@@ -3,12 +3,6 @@
 - 동적 필터와 정적 필터의 차이를 이해할 수 있습니다.
 - 워크시트와 대시보드에서 필터를 적절히 적용할 수 있습니다.
 
-## 사용 데이터 및 실습 파일
-
-실습에는 Superstore 기반 샘플 데이터와 Tableau 통합 문서를 사용합니다.
-
-실습 파일 다운로드: [Kaggle - KR Superstore Sample 2025](https://www.kaggle.com/datasets/heoquixote/krsuperstore-sample-2025/data)
-
 ## 목차
 
 1. 필터

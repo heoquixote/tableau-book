@@ -153,4 +153,4 @@ Tableau 라이선스는 사용자의 역할에 따라 크게 Creator, Explorer, 
 
 라이선스 가격과 정책은 시점에 따라 바뀔 수 있으므로, 실제 도입 시에는 Tableau 공식 가격 페이지를 기준으로 다시 확인하는 것이 좋습니다.
 
-공식 가격 페이지: [https://www.tableau.com/ko-kr/pricing?gad_source=1&gad_campaignid=23631035424&gbraid=0AAAAA_X6G1InUtPy6myTKsRlUb34dN_oU&gclid=CjwKCAjw-dfOBhAjEiwAq0RwI5-MHE5XavUUt9TpJH6o_Oxi_89ju8nqN-3ppNkyDtCh91km3YLwaRoCgWkQAvD_BwE](https://www.tableau.com/ko-kr/pricing?gad_source=1&gad_campaignid=23631035424&gbraid=0AAAAA_X6G1InUtPy6myTKsRlUb34dN_oU&gclid=CjwKCAjw-dfOBhAjEiwAq0RwI5-MHE5XavUUt9TpJH6o_Oxi_89ju8nqN-3ppNkyDtCh91km3YLwaRoCgWkQAvD_BwE)
+공식 가격 페이지: [https://www.tableau.com/ko-kr/pricing](https://www.tableau.com/ko-kr/pricing)

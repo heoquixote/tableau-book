@@ -4,12 +4,6 @@
 - 다양한 분석 시나리오에 맞게 적절한 함수를 선택하고 적용할 수 있습니다.
 - LOD(Level of Detail) 계산식의 개념을 이해하고 집계 수준을 제어하는 방법을 학습합니다.
 
-## 사용 데이터 및 실습 파일
-
-실습에는 Superstore 기반 샘플 데이터와 Tableau 통합 문서를 사용합니다.
-
-실습 파일 다운로드: [Kaggle - KR Superstore Sample 2025](https://www.kaggle.com/datasets/heoquixote/krsuperstore-sample-2025/data)
-
 ## 목차
 
 1. 계산식 주요 함수

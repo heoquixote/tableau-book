@@ -4,12 +4,6 @@
 - Tableau의 필터 적용 순서를 이해하고, 각 필터의 특징과 활용 시점을 설명할 수 있습니다.
 - 라이브와 추출 연결의 장단점을 비교하여 데이터 신선도, 성능, 저장 공간, 활용 목적에 따른 선택 기준을 제시할 수 있습니다.
 
-## 사용 데이터 및 실습 파일
-
-실습에서는 Superstore 기반 샘플 데이터와 Tableau 통합 문서를 사용합니다.
-
-실습 파일 다운로드: [Kaggle - KR Superstore Sample 2025](https://www.kaggle.com/datasets/heoquixote/krsuperstore-sample-2025/data)
-
 ## 목차
 
 1. 태블로 작업 순서와 라이브 vs 추출

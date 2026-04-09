@@ -4,12 +4,6 @@
 - 논리적 계층(Logical Layer)과 물리적 계층(Physical Layer)의 역할 차이를 설명할 수 있습니다.
 - 기존 시각화를 유지한 채 데이터 원본을 교체하거나 필드 참조를 변경하는 방법을 익힐 수 있습니다.
 
-## 사용 데이터 및 실습 파일
-
-실습에서는 `KR Superstore Sample` 기반 데이터와 목표 매출 파일, 여러 개의 Tableau 통합 문서를 사용합니다.
-
-실습 파일 다운로드: [Kaggle - KR Superstore Sample 2025](https://www.kaggle.com/datasets/heoquixote/krsuperstore-sample-2025/data)
-
 ## 목차
 
 1. 데이터 결합

@@ -4,12 +4,6 @@
 - 서로 다른 지표를 하나의 뷰에서 비교하고 해석하는 방법을 익힙니다.
 - 월별 매출·수익 이중축, 도넛차트, 버터플라이 차트를 직접 구성할 수 있습니다.
 
-## 사용 데이터 및 실습 파일
-
-실습에는 Superstore 기반 샘플 데이터와 Tableau 통합 문서를 사용합니다.
-
-실습 파일 다운로드: [Kaggle - KR Superstore Sample 2025](https://www.kaggle.com/datasets/heoquixote/krsuperstore-sample-2025/data)
-
 ## 목차
 
 1. 이중축

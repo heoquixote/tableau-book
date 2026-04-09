@@ -4,12 +4,6 @@
 - 행 수준 계산과 집계 수준 계산의 차이를 구분하고, 각각의 특징과 사용 목적을 설명할 수 있습니다.
 - 동일한 지표라도 계산 수준에 따라 결과가 어떻게 달라지는지 비교하고 시각화할 수 있습니다.
 
-## 사용 데이터 및 실습 파일
-
-실습에는 Superstore 기반 샘플 데이터와 Tableau 통합 문서를 사용합니다.
-
-실습 파일 다운로드: [Kaggle - KR Superstore Sample 2025](https://www.kaggle.com/datasets/heoquixote/krsuperstore-sample-2025/data)
-
 ## 목차
 
 1. 계산된 필드 만들기

@@ -4,12 +4,6 @@
 - Tableau Desktop에서 `twb`, `twbx` 파일 형식의 차이를 이해하고 적절하게 저장할 수 있습니다.
 - Tableau Public에 시각화를 게시하고 공유하는 과정을 이해할 수 있습니다.
 
-## 사용 데이터 및 실습 파일
-
-실습에는 Superstore 기반 샘플 데이터와 Tableau 통합 문서를 사용합니다.
-
-실습 파일 다운로드: [Kaggle - KR Superstore Sample 2025](https://www.kaggle.com/datasets/heoquixote/krsuperstore-sample-2025/data)
-
 ## 목차
 
 1. 대시보드 저장 및 공유 방법: 로컬에서 공유

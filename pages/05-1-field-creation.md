@@ -4,12 +4,6 @@
 - 구간 차원의 개념을 이해하고, 데이터를 범위별로 나누어 시각화할 수 있습니다.
 - 여러 측정값을 동시에 활용하여 시각화를 구성할 수 있습니다.
 
-## 사용 데이터 및 실습 파일
-
-실습에는 Superstore 기반 샘플 데이터와 Tableau 통합 문서를 사용합니다.
-
-실습 파일 다운로드: [Kaggle - KR Superstore Sample 2025](https://www.kaggle.com/datasets/heoquixote/krsuperstore-sample-2025/data)
-
 ## 목차
 
 1. 데이터 그룹과 집합
