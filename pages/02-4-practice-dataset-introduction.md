@@ -11,7 +11,11 @@
 
 이번 실습에서는 Superstore Dataset을 사용합니다. 이 데이터는 가상의 소매점 판매 데이터를 기반으로 구성된 교육용 표준 데이터셋으로, BI 학습자와 데이터 분석 입문자가 Tableau를 익힐 때 가장 많이 사용하는 예제 중 하나입니다.
 
-![실습 데이터 소개 이미지 삽입 예정](../assets/01-4-practice-dataset-overview.png)
+실습 데이터는 아래 Kaggle 페이지에서 내려받을 수 있습니다.
+
+[KRSuperstore Sample 2025 데이터 다운로드](https://www.kaggle.com/datasets/heoquixote/krsuperstore-sample-2025/data)
+
+![KRSuperstore Sample 실습 데이터 소개](../assets/02-4-krsuperstore-sample.png)
 
 이 데이터가 자주 사용되는 이유는 다음과 같습니다.
 
