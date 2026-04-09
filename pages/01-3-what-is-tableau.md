@@ -129,26 +129,28 @@ Tableau 라이선스는 사용자의 역할에 따라 크게 Creator, Explorer, 
 
 - 대상: 데이터 분석가, BI 개발자, 데이터 사이언티스트
 - 특징:
-  - Tableau Desktop, Prep, Server/Cloud의 작성 권한 포함
-  - 다양한 데이터 소스에 직접 연결 가능
-  - 데이터 준비, 계산, 분석, 시각화 제작 가능
-  - 만든 콘텐츠를 게시하고 배포 가능
+    - Tableau Desktop, Prep, Server/Cloud의 작성 권한 포함
+    - 다양한 데이터 소스에 직접 연결 가능
+    - 데이터 준비, 계산, 분석, 시각화 제작 가능
+    - 만든 콘텐츠를 게시하고 배포 가능
 
 ### 6-2. Explorer
 
 - 대상: 비즈니스 사용자, 팀 리더, 실무 분석 담당자
 - 특징:
-  - Server/Cloud 환경에서 웹 브라우저 기반 사용
-  - 게시된 데이터 소스를 활용해 분석 가능
-  - 기존 대시보드를 수정하고 저장 가능
-  - 협업 기능 활용 가능
+    - Server/Cloud 환경에서 웹 브라우저 기반 사용
+    - 게시된 데이터 소스를 활용해 분석 가능
+    - 기존 대시보드를 수정하고 저장 가능
+    - 협업 기능 활용 가능
 
 ### 6-3. Viewer
 
 - 대상: 경영진, 보고서 소비자, 일반 사용자
 - 특징:
-  - 대시보드와 리포트를 보기 중심으로 사용
-  - 필터, 하이라이트, 드릴다운 등 기본 상호작용 가능
-  - 구독, 알림, 댓글 등 협업 기능 일부 활용 가능
+    - 대시보드와 리포트를 보기 중심으로 사용
+    - 필터, 하이라이트, 드릴다운 등 기본 상호작용 가능
+    - 구독, 알림, 댓글 등 협업 기능 일부 활용 가능
 
 라이선스 가격과 정책은 시점에 따라 바뀔 수 있으므로, 실제 도입 시에는 Tableau 공식 가격 페이지를 기준으로 다시 확인하는 것이 좋습니다.
+
+공식 가격 페이지: [https://www.tableau.com/ko-kr/pricing?gad_source=1&gad_campaignid=23631035424&gbraid=0AAAAA_X6G1InUtPy6myTKsRlUb34dN_oU&gclid=CjwKCAjw-dfOBhAjEiwAq0RwI5-MHE5XavUUt9TpJH6o_Oxi_89ju8nqN-3ppNkyDtCh91km3YLwaRoCgWkQAvD_BwE](https://www.tableau.com/ko-kr/pricing?gad_source=1&gad_campaignid=23631035424&gbraid=0AAAAA_X6G1InUtPy6myTKsRlUb34dN_oU&gclid=CjwKCAjw-dfOBhAjEiwAq0RwI5-MHE5XavUUt9TpJH6o_Oxi_89ju8nqN-3ppNkyDtCh91km3YLwaRoCgWkQAvD_BwE)

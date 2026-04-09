@@ -18,11 +18,9 @@
 
 1. Tableau 다운로드 사이트에 접속합니다.
 
-```text
-https://www.tableau.com/ko-kr/support/releases
-```
+[Tableau Desktop 다운로드 페이지](https://www.tableau.com/ko-kr/support/releases)
 
-2. 최신 버전 또는 실습에 지정된 버전을 선택하고 다운로드 버튼을 클릭합니다.
+2. 최신 버전 또는 회사에서 사용하고 있는 태블로 서버의 버전을 선택하고 다운로드 버튼을 클릭합니다.
 
 ![버전 선택 이미지 삽입 예정](../assets/01-3-desktop-version-select.png)
 

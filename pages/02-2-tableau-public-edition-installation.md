@@ -43,9 +43,7 @@ Tableau Public Edition은 Tableau Public 사이트에서 설치할 수 있습니
 
 1. Tableau Public 사이트에 접속합니다.
 
-```text
-https://public.tableau.com/app/discover
-```
+[Tableau Public 사이트](https://public.tableau.com/app/discover)
 
 2. 화면 왼쪽 상단의 `Tableau Desktop Public Edition 다운로드` 버튼을 클릭합니다.
 
