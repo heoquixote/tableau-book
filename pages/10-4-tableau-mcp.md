@@ -15,6 +15,8 @@
 
 [GitHub - tableau/tableau-mcp](https://github.com/tableau/tableau-mcp)
 
+![Tableau MCP GitHub 예시](../assets/10-4/10-4-mcp.png)
+
 Tableau MCP(Model Context Protocol)는 LLM(Claude 등)이 Tableau Cloud에 있는 데이터, 대시보드, 이미지를 API를 통해 안전하게 조회·분석하도록 중간에서 연결해 주는 Bridge 레이어입니다.
 
 즉, AI가 Tableau에 직접 접속하는 것이 아니라, `MCP 서버를 통해 허용된 기능만 호출`하고 그 결과를 다시 AI가 해석·요약하는 구조입니다.

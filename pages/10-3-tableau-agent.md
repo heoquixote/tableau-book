@@ -13,6 +13,8 @@
 
 ## 1. 태블로 에이전트 (Tableau Agent)이란? 2024년 4월 공개
 
+![Tableau Agent 예시](../assets/10-3/10-3-agent.png)
+
 Tableau Agent는 자연어로 Tableau의 데이터, 지표, 대시보드를 이해·설명·분석하도록 돕는 AI 어시스턴트입니다.
 
 - Tableau에 이미 있는 `데이터 자산`

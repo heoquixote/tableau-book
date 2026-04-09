@@ -11,6 +11,8 @@
 
 ## 1. Tableau Pulse란? 2024년 2월 공개
 
+![Tableau Pulse 예시](../assets/10-2/10-2-pulse.png)
+
 Tableau Pulse는 Tableau에 포함된 AI 기반 KPI 모니터링 레이어입니다.
 
 - 전통적인 대시보드처럼 사용자가 직접 열어서 해석하는 방식이 아니라
