@@ -13,7 +13,7 @@
 
 ### 1-1. 측정값 이름(Measure Names)과 측정값(Measure Values)
 
-![측정값 이름과 측정값 이미지 삽입 예정](../assets/05-4/03-1-measure-names-values.png)
+![측정값 이름과 측정값](../assets/05-4/03-1-measure-names-values-v2.png)
 
 #### 측정값 이름(Measure Names)
 

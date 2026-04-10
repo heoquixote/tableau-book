@@ -11,7 +11,7 @@
 3. Tableau Agent 동작 원리
 4. 데모 영상
 
-## 1. 태블로 에이전트 (Tableau Agent)이란? 2024년 4월 공개
+## 1. 태블로 에이전트 (Tableau Agent)이란?
 
 ![Tableau Agent 예시](../assets/10-3/10-3-agent.png)
 
