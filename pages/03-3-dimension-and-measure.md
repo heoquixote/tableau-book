@@ -8,7 +8,7 @@
 1. 차원
 2. 측정값
 
-![차원과 측정값 이미지 삽입 예정](../assets/03-3/01-4-dimension-vs-measure.png)
+![차원과 측정값](../assets/03-3/01-4-dimension-vs-measure.png)
 
 Tableau에서 데이터를 다루는 가장 기본적인 구분은 차원(Dimension)과 측정값(Measure)입니다. 이 둘의 차이를 이해해야 어떤 필드를 축에 놓고, 어떤 필드를 집계해야 하는지 판단할 수 있습니다.
 

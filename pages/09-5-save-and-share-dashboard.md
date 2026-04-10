@@ -150,11 +150,3 @@ Public에 게시하려면 데이터를 `추출(Extract)` 형태로 만들어야 
 ![Tableau Public 게시 화면](../assets/09-5/09-5-create-extract.png)
 
 게시가 끝나면 Public에 생성된 URL을 다른 곳에 공유할 수 있습니다.
-
-#### 노션 임베딩
-
-Public에 업로드한 대시보드 URL은 노션 같은 문서 도구에 임베딩할 수 있습니다.
-
-![노션 임베딩](../assets/09-5/09-5-notion-embed.png)
-
-즉, Tableau Public은 단순 게시 플랫폼을 넘어서 포트폴리오, 블로그, 노션 문서와 연결되는 외부 공유 허브 역할도 할 수 있습니다.

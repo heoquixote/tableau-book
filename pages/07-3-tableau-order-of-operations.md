@@ -20,6 +20,8 @@ Tableau는 사용자가 화면에서 필터를 여러 개 올려둔다고 해서
 
 ## 2. 필터 적용 순서
 
+![필터 적용 순서 개요](../assets/07-3/07-3-filter-order-summary.png)
+
 ### 2-1. Extract Filters (추출 필터)
 
 - 적용 시점: 데이터 추출(`.hyper`) 단계
