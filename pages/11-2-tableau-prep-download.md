@@ -39,29 +39,7 @@
 
 설치 후 최초 실행 시 Tableau 등록 양식을 입력할 수 있습니다.
 
-#### 5. 서버 로그인 기반 활성화 선택
-
-![활성화 방식 선택 이미지 삽입 예정](../assets/11-2/04-1-prep-activate-server-login.png)
-
-라이선스 활성화는 제품 키 방식이 아니라 서버 로그인 기반으로 진행할 수 있습니다.
-
-#### 6. Tableau Cloud 선택 및 접속 정보 입력
-
-![Tableau Cloud 선택 이미지 삽입 예정](../assets/11-2/04-1-prep-select-cloud.png)
-
-![Tableau Cloud 사용자명 입력 이미지 삽입 예정](../assets/11-2/04-1-prep-enter-username.png)
-
-URL 입력창이 나타나면 `teamsparta`를 입력하고, 나타나지 않으면 다음 단계로 넘어갑니다.
-
-![Cloud URI 입력 이미지 삽입 예정](../assets/11-2/04-1-prep-enter-site-uri.png)
-
-#### 7. 이메일/비밀번호 입력 및 인증
-
-![이메일 비밀번호 입력 이미지 삽입 예정](../assets/11-2/04-1-prep-login.png)
-
-![인증 진행 이미지 삽입 예정](../assets/11-2/04-1-prep-authenticator.png)
-
-#### 8. 활성화 완료
+#### 5. 활성화 완료
 
 ![활성화 완료 이미지 삽입 예정](../assets/11-2/04-1-prep-activation-complete.png)
 
