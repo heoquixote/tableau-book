@@ -29,7 +29,7 @@
 
 ### 1-1. 대시보드 동작(Action)
 
-![대시보드 액션 종류](../assets/09-4/05-4-action-types.png)
+![대시보드 액션 종류](../assets/09-4/09-4-action-types.png)
 
 Tableau의 동작(Action)은 사용자의 상호작용을 기준으로 다른 시트, 필드, 매개변수, 외부 링크가 반응하도록 연결하는 기능입니다.
 
@@ -154,7 +154,7 @@ Tableau의 동작(Action)은 사용자의 상호작용을 기준으로 다른 �
 
 #### 3. 필터 동작 편집 시 알아야 할 요소
 
-![필터 동작 편집 대화상자](../assets/09-4/05-4-filter-action-dialog.png)
+![필터 동작 편집 대화상자](../assets/09-4/09-4-filter-action-dialog.png)
 
 필터 액션을 만들 때는 다음 요소를 이해해야 합니다.
 
@@ -266,7 +266,7 @@ Tooltip은 이 두 문제 사이의 균형점입니다.
 
 ### 1-3. 도구 설명에 시트 넣기: Viz in Tooltip
 
-![Viz in Tooltip 삽입 절차](../assets/09-4/05-4-viz-in-tooltip-steps.png)
+![Viz in Tooltip 삽입 절차](../assets/09-4/09-4-viz-in-tooltip-steps.png)
 
 Tooltip에는 텍스트만 넣는 것이 아니라, 다른 워크시트를 삽입할 수도 있습니다.  
 이 기능을 `Viz in Tooltip`이라고 합니다.
@@ -309,9 +309,9 @@ Tooltip에는 텍스트만 넣는 것이 아니라, 다른 워크시트를 삽�
 
 #### 4. 실무 활용 예시
 
-![일별 시트 예시](../assets/09-4/05-4-daily-sheet-example.png)
+![일별 시트 예시](../assets/09-4/09-4-daily-sheet-example.png)
 
-![Tooltip 편집기에서 시트 삽입](../assets/09-4/05-4-tooltip-editor-sheet-insert.png)
+![Tooltip 편집기에서 시트 삽입](../assets/09-4/09-4-tooltip-editor-sheet-insert.png)
 
 `월별 그래프에 마우스 오버 시 일별 그래프 표시`는 가장 대표적인 예시입니다.
 
@@ -380,13 +380,13 @@ Dynamic Zone Visibility는 이 문제를 `조건부 표시`로 해결하게 해 
 
 #### 4. 기본 구성 절차
 
-![워드클라우드 시트 예시](../assets/09-4/05-4-word-cloud-sheet.png)
+![워드클라우드 시트 예시](../assets/09-4/09-4-word-cloud-sheet.png)
 
-![워드클라우드 선택 계산식](../assets/09-4/05-4-word-cloud-calc.png)
+![워드클라우드 선택 계산식](../assets/09-4/09-4-word-cloud-calc.png)
 
-![트리맵/워드클라우드 선택 매개변수](../assets/09-4/05-4-parameter-toggle.png)
+![트리맵/워드클라우드 선택 매개변수](../assets/09-4/09-4-parameter-toggle.png)
 
-![Dynamic Zone Visibility 설정](../assets/09-4/05-4-dynamic-zone-visibility-setting.png)
+![Dynamic Zone Visibility 설정](../assets/09-4/09-4-dynamic-zone-visibility-setting.png)
 
 일반적인 흐름은 다음과 같습니다.
 

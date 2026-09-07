@@ -12,9 +12,9 @@
 
 ## 1. 버전 관리란?
 
-![변경 내역 메뉴](../assets/12-1/05-5-revision-history-menu.png)
+![변경 내역 메뉴](../assets/12-5/12-5-revision-history-menu.png)
 
-![변경 내역 및 복원 화면](../assets/12-1/05-5-revision-history.png)
+![변경 내역 및 복원 화면](../assets/12-5/12-5-revision-history.png)
 
 Tableau Cloud 또는 Server에 게시된 통합 문서는 수정될 때마다 새로운 버전이 자동 저장됩니다.
 

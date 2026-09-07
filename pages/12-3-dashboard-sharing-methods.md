@@ -18,7 +18,7 @@ Tableau Cloud에서는 대시보드를 여러 방식으로 공유할 수 있습�
 
 ## 1. 직접 공유
 
-![직접 공유 예시](../assets/12-1/05-5-direct-share.png)
+![직접 공유 예시](../assets/12-3/12-3-direct-share.png)
 
 직접 공유는 특정 사용자나 그룹을 지정해서 권한과 함께 공유하는 방식입니다.
 
@@ -32,7 +32,7 @@ Tableau Cloud에서는 대시보드를 여러 방식으로 공유할 수 있습�
 
 ## 2. 링크 공유
 
-![링크 공유 예시](../assets/12-1/05-5-link-share.png)
+![링크 공유 예시](../assets/12-3/12-3-link-share.png)
 
 링크 공유는 현재 워크북 또는 뷰의 URL을 복사해서 전달하는 방식입니다.
 
@@ -47,7 +47,7 @@ Tableau Cloud에서는 대시보드를 여러 방식으로 공유할 수 있습�
 
 ## 3. 다운로드
 
-![다운로드 메뉴 예시](../assets/12-1/05-5-download-menu.png)
+![다운로드 메뉴 예시](../assets/12-3/12-3-download-menu.png)
 
 Cloud에서는 대시보드를 직접 보는 것 외에도 다양한 형식으로 결과를 내려받을 수 있습니다.
 
@@ -63,7 +63,7 @@ Cloud에서는 대시보드를 직접 보는 것 외에도 다양한 형식으�
 
 ## 4. 댓글
 
-![댓글 기능 예시](../assets/12-1/05-5-comments.png)
+![댓글 기능 예시](../assets/12-3/12-3-comments.png)
 
 댓글 기능은 단순 메모가 아니라 `분석 맥락을 남기는 협업 기록`입니다.
 
@@ -78,7 +78,7 @@ Cloud에서는 대시보드를 직접 보는 것 외에도 다양한 형식으�
 
 ## 5. 구독
 
-![구독 설정 예시](../assets/12-1/05-5-subscriptions.png)
+![구독 설정 예시](../assets/12-3/12-3-subscriptions.png)
 
 구독(Subscriptions)은 최신 상태의 뷰나 워크북을 정기적으로 이메일로 받아보는 기능입니다.
 
@@ -95,9 +95,9 @@ Cloud에서는 대시보드를 직접 보는 것 외에도 다양한 형식으�
 
 ## 6. 알림
 
-![알림 메뉴 예시](../assets/12-1/05-5-alert-menu.png)
+![알림 메뉴 예시](../assets/12-3/12-3-alert-menu.png)
 
-![데이터 기반 알림 설정](../assets/12-1/05-5-data-driven-alert.png)
+![데이터 기반 알림 설정](../assets/12-3/12-3-data-driven-alert.png)
 
 Data-Driven Alerts는 특정 지표가 임계값을 넘거나 조건을 만족했을 때 알림을 보내는 기능입니다.
 

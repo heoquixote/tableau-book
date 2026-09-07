@@ -25,7 +25,7 @@
 
 ### 1-1. 장치별 레이아웃
 
-![장치별 레이아웃 설정 예시](../assets/09-3/05-3-device-layout.png)
+![장치별 레이아웃 설정 예시](../assets/09-3/09-3-device-layout.png)
 
 Tableau는 하나의 대시보드에 대해 장치별 레이아웃(Device Layout)을 따로 구성할 수 있습니다.
 
@@ -66,7 +66,7 @@ Tableau는 하나의 대시보드에 대해 장치별 레이아웃(Device Layout
 
 ### 1-2. 대시보드 크기
 
-![대시보드 크기 설정 예시](../assets/09-3/05-3-dashboard-size.png)
+![대시보드 크기 설정 예시](../assets/09-3/09-3-dashboard-size.png)
 
 Tableau 대시보드 크기 설정은 크게 다음 세 가지 방식으로 나뉩니다.
 
@@ -145,7 +145,7 @@ Tableau에서 개체를 배치하는 방식은 크게 두 가지입니다.
 
 #### 1. 바둑판식(Tiled)
 
-![바둑판식 배치 예시](../assets/09-3/05-3-tiled-example.png)
+![바둑판식 배치 예시](../assets/09-3/09-3-tiled-example.png)
 
 바둑판식은 개체가 격자처럼 정렬되며 자동으로 자리 잡는 방식입니다.
 
@@ -165,7 +165,7 @@ Tableau에서 개체를 배치하는 방식은 크게 두 가지입니다.
 
 #### 2. 부동(Floating)
 
-![부동 배치 예시](../assets/09-3/05-3-floating-example.png)
+![부동 배치 예시](../assets/09-3/09-3-floating-example.png)
 
 부동은 개체를 다른 요소 위에 자유롭게 겹쳐 놓거나, 정확한 위치에 직접 배치하는 방식입니다.
 
@@ -235,7 +235,7 @@ Tableau 대시보드에는 단순히 시트만 넣는 것이 아니라, 다양�
 
 #### 실습 레이아웃을 볼 때의 핵심
 
-![레이아웃 컨테이너 구조 예시](../assets/09-3/05-3-layout-container-structure-v2.png)
+![레이아웃 컨테이너 구조 예시](../assets/09-3/09-3-layout-container-structure-v2.png)
 
 실습에서는 보통 다음처럼 구조를 해석하면 이해가 빠릅니다.
 
@@ -249,7 +249,7 @@ Tableau 대시보드에는 단순히 시트만 넣는 것이 아니라, 다양�
 
 ### 1-5. 레이아웃 개체
 
-![레이아웃 패널 예시](../assets/09-3/05-3-layout-pane.png)
+![레이아웃 패널 예시](../assets/09-3/09-3-layout-pane.png)
 
 개체를 대시보드에 넣은 뒤에는 레이아웃 패널에서 세부 속성을 조정할 수 있습니다.
 
@@ -295,7 +295,7 @@ Tableau 대시보드에는 단순히 시트만 넣는 것이 아니라, 다양�
 
 #### 바깥쪽 여백(Margin)과 안쪽 여백(Padding)
 
-![Padding과 Margin 차이](../assets/09-3/05-3-padding-vs-margin.png)
+![Padding과 Margin 차이](../assets/09-3/09-3-padding-vs-margin.png)
 
 여백은 레이아웃 품질을 크게 좌우하는 요소입니다.
 

@@ -35,9 +35,9 @@
 1. 열, 행 또는 마크 카드에 직접 입력하는 임시 계산
 2. 데이터 패널에서 `계산된 필드 만들기`를 선택해 정식 필드를 생성하는 방식
 
-![임시 계산 예시](../assets/06-1/03-2-temporary-calculation.png)
+![임시 계산 예시](../assets/06-1/06-1-temporary-calculation.png)
 
-![계산된 필드 만들기 메뉴](../assets/06-1/03-2-calculated-field-editor.png)
+![계산된 필드 만들기 메뉴](../assets/06-1/06-1-calculated-field-editor.png)
 
 실무에서는 재사용성과 유지보수 때문에 대부분 두 번째 방식이 더 적합합니다.  
 임시 계산은 빠른 탐색에는 좋지만, 이후 대시보드나 다른 시트에서 다시 쓰기 어렵기 때문입니다.

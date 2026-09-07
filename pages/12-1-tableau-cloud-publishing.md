@@ -24,7 +24,7 @@
 
 이때 핵심 플랫폼 역할을 하는 것이 `Tableau Server`와 `Tableau Cloud`입니다.
 
-![통합 문서 게시 화면 예시](../assets/12-1/05-5-publish-workbook.png)
+![통합 문서 게시 화면 예시](../assets/12-1/12-1-publish-workbook.png)
 
 조직에서 Tableau를 함께 사용한다면, 대시보드를 파일로 주고받는 대신 서버나 클라우드에 게시하는 방식이 가장 일반적입니다.
 

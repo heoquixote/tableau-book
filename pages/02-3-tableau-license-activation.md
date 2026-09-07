@@ -34,11 +34,11 @@ Tableau는 설치만으로 바로 사용하는 프로그램이 아니라, 계정
 
 1. Tableau 활성화 화면에서 `제품 키로 활성화`를 클릭합니다.
 
-![제품 키로 활성화 선택](../assets/02-3/01-3-product-key-select-v2.png)
+![제품 키로 활성화 선택](../assets/02-3/02-3-product-key-select-v2.png)
 
 2. 회사에서 할당받은 제품 키를 텍스트 상자에 붙여 넣은 다음 `활성화`를 클릭합니다.
 
-![제품 키 입력](../assets/02-3/01-3-product-key-input-v2.png)
+![제품 키 입력](../assets/02-3/02-3-product-key-input-v2.png)
 
 - 제품 키는 보통 관리자나 태블로 서버/클라우드 담당자가 전달합니다.
 - 제품 키 방식은 서버 연결 없이도 활성화할 수 있다는 장점이 있습니다.
@@ -55,15 +55,15 @@ Tableau는 설치만으로 바로 사용하는 프로그램이 아니라, 계정
 1. 이메일에서 `You've Been Invited to Tableau Cloud` 메일을 확인합니다.  
    안내 메일이 오지 않았다면 태블로 서버/클라우드 담당자에게 문의합니다.
 
-![Cloud 초대 메일](../assets/02-3/01-3-cloud-invite-email-v2.png)
+![Cloud 초대 메일](../assets/02-3/02-3-cloud-invite-email-v2.png)
 
 2. 메일 안의 `Join Now` 버튼을 클릭합니다.
 
-![Join Now 버튼](../assets/02-3/01-3-cloud-join-now-v2.png)
+![Join Now 버튼](../assets/02-3/02-3-cloud-join-now-v2.png)
 
 3. 이름과 비밀번호를 설정합니다.
 
-![Cloud 계정 설정](../assets/02-3/01-3-cloud-set-password-v2.png)
+![Cloud 계정 설정](../assets/02-3/02-3-cloud-set-password-v2.png)
 
 4. 설정이 완료되면 추가 인증 수단 등록 단계로 이동합니다.
 
@@ -75,7 +75,7 @@ Tableau는 설치만으로 바로 사용하는 프로그램이 아니라, 계정
 
 #### 1. Salesforce Authenticator로 인증하는 경우
 
-![Salesforce Authenticator 선택](../assets/02-3/01-3-salesforce-auth-select-v3.png)
+![Salesforce Authenticator 선택](../assets/02-3/02-3-salesforce-auth-select-v3.png)
 
 설정 절차는 다음과 같습니다.
 
@@ -86,28 +86,28 @@ Tableau는 설치만으로 바로 사용하는 프로그램이 아니라, 계정
 - Google Play: [Salesforce Authenticator](https://play.google.com/store/apps/details?id=com.salesforce.authenticator)
 - App Store: [Salesforce Authenticator](https://apps.apple.com/us/app/salesforce-authenticator/id782057975)
 
-![Salesforce Authenticator 앱 설치](../assets/02-3/01-3-salesforce-auth-add-account-v2.png)
+![Salesforce Authenticator 앱 설치](../assets/02-3/02-3-salesforce-auth-add-account-v2.png)
 
 3. PC 화면에 `Salesforce Authenticator 연결` 창이 나타나면, 앱 설치 후 계정 추가를 진행하라는 안내를 확인합니다.
 
-![Salesforce Authenticator 연결 화면](../assets/02-3/01-3-salesforce-auth-install-v2.png)
+![Salesforce Authenticator 연결 화면](../assets/02-3/02-3-salesforce-auth-install-v2.png)
 
 4. 스마트폰에서 앱을 실행한 뒤 `Add an Account` 또는 `계정 추가`를 눌러 계정을 연결합니다.
 
 5. 앱 화면에 표시된 입력 영역에 PC 화면의 두 단어 구문을 입력합니다.
 
-![Salesforce Authenticator 계정 연결](../assets/02-3/01-3-salesforce-auth-words-v2.png)
+![Salesforce Authenticator 계정 연결](../assets/02-3/02-3-salesforce-auth-words-v2.png)
 
 6. 연결이 완료되면 앱에서 갱신되는 확인 코드를 PC 화면에 입력합니다.
 7. 확인 코드와 검증 도구 이름을 설정하면 등록이 완료됩니다.
 
-![Salesforce Authenticator 등록 완료](../assets/02-3/01-3-auth-finish-v2.png)
+![Salesforce Authenticator 등록 완료](../assets/02-3/02-3-auth-finish-v2.png)
 
 #### 2. Google Authenticator로 인증하는 경우
 
 추가 인증 수단 등록 화면에서 `일회용 암호 생성기`를 선택합니다.
 
-![일회용 암호 생성기 선택](../assets/02-3/01-3-google-auth-select-v2.png)
+![일회용 암호 생성기 선택](../assets/02-3/02-3-google-auth-select-v2.png)
 
 설정 절차는 다음과 같습니다.
 
@@ -118,21 +118,21 @@ Tableau는 설치만으로 바로 사용하는 프로그램이 아니라, 계정
 
 2. 앱을 실행하고 코드 추가를 선택합니다.
 
-![Google Authenticator 설치](../assets/02-3/01-3-google-auth-install-v2.png)
+![Google Authenticator 설치](../assets/02-3/02-3-google-auth-install-v2.png)
 
-![Google Authenticator 코드 추가](../assets/02-3/01-3-google-auth-add-code-v2.png)
+![Google Authenticator 코드 추가](../assets/02-3/02-3-google-auth-add-code-v2.png)
 
 3. `QR 코드 스캔`을 눌러 PC에 표시된 QR 코드를 등록합니다.
 
-![Google Authenticator QR 등록](../assets/02-3/01-3-google-auth-qr-v2.png)
+![Google Authenticator QR 등록](../assets/02-3/02-3-google-auth-qr-v2.png)
 
 4. 앱에 표시되는 일회용 코드를 PC 화면에 입력합니다.
 
-![Google Authenticator 확인 코드](../assets/02-3/01-3-google-auth-code-v3.png)
+![Google Authenticator 확인 코드](../assets/02-3/02-3-google-auth-code-v3.png)
 
 5. 확인 코드와 검증 도구 이름을 설정하면 등록이 완료됩니다.
 
-![Google Authenticator 등록 완료](../assets/02-3/01-3-auth-finish-v2.png)
+![Google Authenticator 등록 완료](../assets/02-3/02-3-auth-finish-v2.png)
 
 ### 3-3. Tableau Desktop에서 서버 로그인으로 활성화
 
@@ -140,16 +140,16 @@ Tableau Desktop 설치가 끝났다면 이제 조직에서 제공받은 라이�
 
 1. Tableau 활성화 화면에서 `서버에 로그인하여 활성화`를 선택합니다.
 
-![서버 로그인 활성화](../assets/02-3/01-3-desktop-activate-server-v2.png)
+![서버 로그인 활성화](../assets/02-3/02-3-desktop-activate-server-v2.png)
 
 2. Tableau Cloud를 선택합니다.
 
-![Tableau Cloud 선택](../assets/02-3/01-3-desktop-select-cloud-v2.png)
+![Tableau Cloud 선택](../assets/02-3/02-3-desktop-select-cloud-v2.png)
 
 3. Tableau Cloud에 사용할 사용자 이름을 입력합니다.  
    이때 앞 단계에서 활성화한 Tableau Cloud 이메일을 입력합니다.
 
-![Cloud 사용자 이름 입력](../assets/02-3/01-3-desktop-cloud-username-v2.png)
+![Cloud 사용자 이름 입력](../assets/02-3/02-3-desktop-cloud-username-v2.png)
 
 4. URL 입력창이 나오면 본인 Cloud URL의 사이트 이름 부분을 입력합니다.  
    표시되지 않으면 건너뜁니다.
@@ -158,19 +158,19 @@ Tableau Desktop 설치가 끝났다면 이제 조직에서 제공받은 라이�
 
 `https://prod-apnortheast-a.online.tableau.com/#/site/`<span style="color:red">`{사이트 이름}`</span>`/home`
 
-![Site URL 입력](../assets/02-3/01-3-desktop-site-url-v3.png)
+![Site URL 입력](../assets/02-3/02-3-desktop-site-url-v3.png)
 
 5. 이메일과 비밀번호를 입력합니다.
 
-![이메일과 비밀번호 입력](../assets/02-3/01-3-desktop-email-password-v2.png)
+![이메일과 비밀번호 입력](../assets/02-3/02-3-desktop-email-password-v2.png)
 
 6. Authenticator 인증을 진행합니다.
 
-![Authenticator 인증 화면](../assets/02-3/01-3-desktop-authenticator-v2.png)
+![Authenticator 인증 화면](../assets/02-3/02-3-desktop-authenticator-v2.png)
 
 7. 활성화 프로세스 완료 화면이 나타나면 `계속`을 눌러 마칩니다.
 
-![활성화 완료 화면](../assets/02-3/01-3-desktop-activation-finish-v2.png)
+![활성화 완료 화면](../assets/02-3/02-3-desktop-activation-finish-v2.png)
 
 ## 4. 활성화 확인 방법
 
@@ -178,8 +178,8 @@ Tableau Desktop 설치가 끝났다면 이제 조직에서 제공받은 라이�
 
 1. Tableau Desktop 상단 메뉴에서 `도움말 > 제품 키 관리`를 클릭합니다.
 
-![제품 키 관리 메뉴](../assets/02-3/01-3-desktop-manage-product-key-v2.png)
+![제품 키 관리 메뉴](../assets/02-3/02-3-desktop-manage-product-key-v2.png)
 
 2. Creator 제품 키가 보이면 정상적으로 활성화된 것입니다.
 
-![Creator 제품 키 확인](../assets/02-3/01-3-desktop-product-key-check-v2.png)
+![Creator 제품 키 확인](../assets/02-3/02-3-desktop-product-key-check-v2.png)

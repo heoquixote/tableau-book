@@ -14,7 +14,7 @@
 Tableau Cloud를 제대로 쓰려면, 먼저 콘텐츠가 어떻게 구성되는지 이해해야 합니다.  
 그래야 사용자가 어디에서 무엇을 찾고, 어떤 단위로 공유하고 관리하는지 감이 잡힙니다.
 
-![Tableau Cloud 홈 화면](../assets/12-1/05-5-cloud-home.png)
+![Tableau Cloud 홈 화면](../assets/12-2/12-2-cloud-home.png)
 
 Cloud 홈 화면에서는 보통 다음 영역을 보게 됩니다.
 
@@ -29,7 +29,7 @@ Cloud 홈 화면에서는 보통 다음 영역을 보게 됩니다.
 
 ## 2. 탐색 화면과 콘텐츠 단위
 
-![Tableau Cloud 탐색 화면](../assets/12-1/05-5-cloud-explore.png)
+![Tableau Cloud 탐색 화면](../assets/12-2/12-2-cloud-explore.png)
 
 Tableau Cloud에서 자주 보는 콘텐츠 단위는 다음과 같습니다.
 

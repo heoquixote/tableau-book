@@ -14,7 +14,7 @@
 
 Tableau Desktop Public Edition은 Tableau Desktop의 무료 공개 버전입니다. 기본적인 시각화와 대시보드 제작 기능은 제공하지만, 저장과 데이터 연결 측면에서 제약이 있습니다.
 
-![Tableau Public Edition 이미지 삽입 예정](../assets/02-2/01-3-public-edition-overview.png)
+![Tableau Public Edition 이미지 삽입 예정](../assets/02-2/02-2-public-edition-overview.png)
 
 핵심 특징은 다음과 같습니다.
 
@@ -45,16 +45,16 @@ Tableau Public Edition은 Tableau Public 사이트에서 설치할 수 있습니
 
 2. 화면 왼쪽 상단의 `Tableau Desktop Public Edition 다운로드` 버튼을 클릭합니다.
 
-![Public Edition 다운로드 버튼 이미지 삽입 예정](../assets/02-2/01-3-public-download-button.png)
+![Public Edition 다운로드 버튼 이미지 삽입 예정](../assets/02-2/02-2-public-download-button.png)
 
 3. 이동한 페이지에서 필요한 정보를 입력하고 다운로드를 진행합니다.
 
-![Public Edition 정보 입력 이미지 삽입 예정](../assets/02-2/01-3-public-download-form.png)
+![Public Edition 정보 입력 이미지 삽입 예정](../assets/02-2/02-2-public-download-form.png)
 
 4. 설치를 진행합니다.
 
-![Public Edition 설치 이미지 삽입 예정](../assets/02-2/01-3-public-install.png)
+![Public Edition 설치 이미지 삽입 예정](../assets/02-2/02-2-public-install.png)
 
 5. 실행이 완료되면 Tableau Public Edition을 사용할 수 있습니다.
 
-![Public Edition 실행 완료 이미지 삽입 예정](../assets/02-2/01-3-public-launch-finish.png)
+![Public Edition 실행 완료 이미지 삽입 예정](../assets/02-2/02-2-public-launch-finish.png)

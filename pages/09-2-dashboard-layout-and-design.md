@@ -58,7 +58,7 @@
 
 ### 1-2. 화면 설계
 
-![대시보드 화면 설계 와이어프레임 예시](../assets/09-2/05-2-wireframe-layout.png)
+![대시보드 화면 설계 와이어프레임 예시](../assets/09-2/09-2-wireframe-layout.png)
 
 질문이 정리되면 그다음은 `어떤 정보를 어떤 순서로 보여줄지`를 결정해야 합니다.
 
@@ -83,7 +83,7 @@
 
 ### 1-3. 표현 방식 결정
 
-![표현 방식 결정 예시](../assets/09-2/05-2-expression-methods.png)
+![표현 방식 결정 예시](../assets/09-2/09-2-expression-methods.png)
 
 같은 데이터라도 무엇을 강조할지에 따라 표현 방식이 달라집니다.
 
@@ -108,7 +108,7 @@
 
 ### 1-4. 차트 선정
 
-![차트 선정 예시](../assets/09-2/05-2-chart-selection.png)
+![차트 선정 예시](../assets/09-2/09-2-chart-selection.png)
 
 표현 방식이 정해지면 그에 맞는 차트를 고릅니다.
 
@@ -129,7 +129,7 @@
 
 ### 1-5. 액션 설계
 
-![툴팁 중심 액션 설계 예시](../assets/09-2/05-2-action-tooltip.png)
+![툴팁 중심 액션 설계 예시](../assets/09-2/09-2-action-tooltip.png)
 
 대시보드가 단순 보고용을 넘어 분석용으로 쓰이려면 `액션(Action)` 설계가 중요합니다.
 
@@ -154,7 +154,7 @@
 
 ### 1-6. 대시보드 제작
 
-![완성된 대시보드 예시](../assets/09-2/05-2-dashboard-final-example.png)
+![완성된 대시보드 예시](../assets/09-2/09-2-dashboard-final-example.png)
 
 이제 앞에서 정의한 내용을 바탕으로 실제 Tableau 또는 설계 도구에서 화면을 제작합니다.
 
@@ -248,7 +248,7 @@ AI가 제안한 화면은 출발점으로는 유용하지만, 실무용으로 �
 
 ### 2-1. 계층
 
-![계층 설계 예시](../assets/09-2/05-2-design-hierarchy.png)
+![계층 설계 예시](../assets/09-2/09-2-design-hierarchy.png)
 
 계층(Hierarchy)은 정보의 중요도에 따라 시각적 비중을 다르게 두는 원칙입니다.
 
@@ -268,7 +268,7 @@ AI가 제안한 화면은 출발점으로는 유용하지만, 실무용으로 �
 
 ### 2-2. 단순성
 
-![단순성 설계 예시](../assets/09-2/05-2-design-simplicity.png)
+![단순성 설계 예시](../assets/09-2/09-2-design-simplicity.png)
 
 단순성(Simplicity)은 복잡한 정보를 `복잡하지 않게 보이도록 만드는 힘`입니다.
 
@@ -286,7 +286,7 @@ AI가 제안한 화면은 출발점으로는 유용하지만, 실무용으로 �
 
 ### 2-3. 일관성
 
-![일관성 설계 예시](../assets/09-2/05-2-design-consistency.png)
+![일관성 설계 예시](../assets/09-2/09-2-design-consistency.png)
 
 일관성(Consistency)은 사용자가 화면 규칙을 빠르게 학습하게 해 줍니다.
 
@@ -303,7 +303,7 @@ AI가 제안한 화면은 출발점으로는 유용하지만, 실무용으로 �
 
 ### 2-4. 근접성
 
-![근접성 설계 예시](../assets/09-2/05-2-design-proximity.png)
+![근접성 설계 예시](../assets/09-2/09-2-design-proximity.png)
 
 근접성(Proximity)은 관련 있는 정보를 가까이 배치하는 원칙입니다.
 
@@ -335,7 +335,7 @@ AI가 제안한 화면은 출발점으로는 유용하지만, 실무용으로 �
 
 ### 2-6. 여백
 
-![여백 활용 예시](../assets/09-2/05-2-design-whitespace.png)
+![여백 활용 예시](../assets/09-2/09-2-design-whitespace.png)
 
 여백(Whitespace)은 비어 있는 공간이 아니라, 정보를 숨 쉬게 하는 공간입니다.
 

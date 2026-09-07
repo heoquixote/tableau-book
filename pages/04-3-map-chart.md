@@ -15,7 +15,7 @@
 
 예를 들어 `지역별 매출이 어디에서 높고 낮은가?`, `수익이 좋은 지역과 손실 지역은 어디인가?` 같은 질문에 적합합니다.
 
-![맵 차트 예시](../assets/04-3/02-1-map-chart.png)
+![맵 차트 예시](../assets/04-3/04-3-map-chart.png)
 
 - 지역별 맵 차트
 - 열: 경도(생성됨)
@@ -28,7 +28,7 @@
 
 데이터 타입 아이콘을 클릭해 지리적 역할을 지정할 수 있습니다.
 
-![지리적 역할 지정 메뉴](../assets/04-3/02-1-geographic-role-menu.png)
+![지리적 역할 지정 메뉴](../assets/04-3/04-3-geographic-role-menu.png)
 
 - 국가 -> 국가/지역
 - 시도 -> 주/시/도
@@ -46,7 +46,7 @@
 
 이 구조를 만들면 같은 차트 안에서 드릴다운과 드릴업이 가능해집니다.
 
-![계층 개념](../assets/04-3/02-1-hierarchy-overview.png)
+![계층 개념](../assets/04-3/04-3-hierarchy-overview.png)
 
 ### 2-1. 계층 만들기 방법
 
@@ -56,17 +56,17 @@
 
 Tableau는 위에서 아래 순서를 계층 순서로 인식합니다.
 
-![계층 만들기 드롭](../assets/04-3/02-1-hierarchy-drag.png)
+![계층 만들기 드롭](../assets/04-3/04-3-hierarchy-drag.png)
 
-![계층 이름 설정](../assets/04-3/02-1-hierarchy-name.png)
+![계층 이름 설정](../assets/04-3/04-3-hierarchy-name.png)
 
 계층이 생성되면 데이터 패널에서 관련 필드가 하나의 계층 구조로 묶여 표시됩니다.
 
-![계층 생성 결과](../assets/04-3/02-1-hierarchy-created.png)
+![계층 생성 결과](../assets/04-3/04-3-hierarchy-created.png)
 
 ### 2-2. 맵 옵션
 
-![맵 옵션](../assets/04-3/02-1-map-options.png)
+![맵 옵션](../assets/04-3/04-3-map-options.png)
 
 1. 검색 아이콘: 특정 지역이나 주소를 검색합니다.
 2. 확대: 지도를 더 자세히 봅니다.
@@ -79,7 +79,7 @@ Tableau는 위에서 아래 순서를 계층 순서로 인식합니다.
 
 ### 2-3. 백그라운드 레이어
 
-![백그라운드 레이어](../assets/04-3/02-1-background-layers.png)
+![백그라운드 레이어](../assets/04-3/04-3-background-layers.png)
 
 1. 백그라운드 스타일: 맵의 기본 테마를 설정합니다.
 2. 투명도: 맵 배경의 투명도를 조정합니다.

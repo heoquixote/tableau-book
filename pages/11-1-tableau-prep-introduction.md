@@ -9,7 +9,7 @@
 
 ## 1. Tableau Prep 소개
 
-![Tableau Prep 소개](../assets/11-1/04-1-prep-introduction.png)
+![Tableau Prep 소개](../assets/11-1/11-1-prep-introduction.png)
 
 하버드 비즈니스 리뷰에서는 데이터 분석 업무 시간의 약 80%가 전처리에 쓰이고, 실제 분석에 투입되는 시간은 약 20% 수준이라고 이야기합니다.  
 실무에서도 이 비율은 크게 다르지 않습니다.
@@ -23,7 +23,7 @@
 
 이처럼 "전처리를 하느라 분석을 못 하는 상황"을 줄이기 위해 나온 도구가 Tableau Prep입니다.
 
-![Tableau Prep 개념](../assets/11-1/04-1-prep-concept.png)
+![Tableau Prep 개념](../assets/11-1/11-1-prep-concept.png)
 
 Tableau Prep은 Tableau Desktop 사용자 경험을 바탕으로 2018년에 출시된 데이터 준비 도구입니다.
 
@@ -36,7 +36,7 @@ Tableau Prep은 Tableau Desktop 사용자 경험을 바탕으로 2018년에 출�
 
 즉, SQL을 직접 쓰지 않거나 Python 전처리 파이프라인을 별도로 만들지 않아도, 드래그 앤 드롭 중심으로 데이터 연결, 정제, 통합 과정을 설계할 수 있습니다.
 
-![Tableau Prep 결합 정리 변형](../assets/11-1/04-1-prep-combine-clean-shape.png)
+![Tableau Prep 결합 정리 변형](../assets/11-1/11-1-prep-combine-clean-shape.png)
 
 Prep의 핵심 작업은 보통 다음 세 가지로 정리할 수 있습니다.
 

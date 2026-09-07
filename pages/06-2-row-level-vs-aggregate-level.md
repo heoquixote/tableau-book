@@ -12,7 +12,7 @@
 
 ## 1. 행 수준 계산
 
-![행 수준 계산 개념](../assets/06-1/03-2-row-level-calculation.png)
+![행 수준 계산 개념](../assets/06-1/06-1-row-level-calculation.png)
 
 행 수준 계산은 데이터 소스의 각 행(Row)마다 계산이 수행되는 방식입니다.
 
@@ -36,7 +36,7 @@
 
 ## 2. 집계 수준 계산
 
-![집계 수준 계산 개념](../assets/06-1/03-2-aggregate-level-calculation.png)
+![집계 수준 계산 개념](../assets/06-1/06-1-aggregate-level-calculation.png)
 
 집계 수준 계산은 데이터가 뷰에서 집계된 뒤 계산되는 방식입니다.
 
@@ -76,7 +76,7 @@ SUM([수익]) / SUM([매출])
 
 다음 실습에서는 같은 수익률 지표를 두 방식으로 계산해 결과 차이를 비교합니다.
 
-![행 수준 계산과 집계 수준 계산 비교](../assets/06-1/03-2-row-vs-aggregate-comparison.png)
+![행 수준 계산과 집계 수준 계산 비교](../assets/06-1/06-1-row-vs-aggregate-comparison.png)
 
 ### 3-1. 행 수준 계산식
 
@@ -94,11 +94,11 @@ SUM([수익]) / SUM([매출])
 
 ### 3-3. 행 수준 계산 시
 
-![행 수준 계산 결과](../assets/06-1/03-2-row-level-result.png)
+![행 수준 계산 결과](../assets/06-1/06-1-row-level-result.png)
 
 ### 3-4. 집계 수준 계산 시
 
-![집계 수준 계산 결과](../assets/06-1/03-2-aggregate-level-result.png)
+![집계 수준 계산 결과](../assets/06-1/06-1-aggregate-level-result.png)
 
 시각화 구성은 다음과 같습니다.
 

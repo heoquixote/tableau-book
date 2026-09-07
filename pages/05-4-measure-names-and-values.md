@@ -13,7 +13,7 @@
 
 ### 1-1. 측정값 이름(Measure Names)과 측정값(Measure Values)
 
-![측정값 이름과 측정값](../assets/05-4/03-1-measure-names-values-v2.png)
+![측정값 이름과 측정값](../assets/05-4/05-4-measure-names-values-v2.png)
 
 #### 측정값 이름(Measure Names)
 
@@ -42,7 +42,7 @@
 
 여러 KPI를 한 화면에 나란히 보여주고 싶을 때 `측정값 이름`과 `측정값` 조합이 매우 유용합니다.
 
-![측정값 이름 활용 예시 이미지 삽입 예정](../assets/05-4/03-1-measure-names-example.png)
+![측정값 이름 활용 예시 이미지 삽입 예정](../assets/05-4/05-4-measure-names-example.png)
 
 - 열: `측정값 이름`
 - 텍스트: `측정값 이름`, `측정값`

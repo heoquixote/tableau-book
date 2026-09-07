@@ -21,7 +21,7 @@ Tableau에서는 크게 두 가지 방식으로 공유할 수 있습니다.
 
 즉, Tableau 사용 여부와 관계없이 상황에 따라 가장 적합한 전달 방식을 선택할 수 있습니다.
 
-![저장 및 공유 방식 개요](../assets/09-5/09-5-export-crosstab.png)
+![저장 및 공유 방식 개요](../assets/09-5/09-5-share-overview.png)
 
 #### Tableau 통합 문서(`.twb`, `.twbx`)
 
@@ -32,7 +32,7 @@ Tableau 통합 문서에는 대표적으로 두 가지 형식이 있습니다.
 - 통합 문서(`.twb`)
 - 패키지 통합 문서(`.twbx`)
 
-![twb와 twbx 차이](../assets/09-5/09-5-export-image.png)
+![twb와 twbx 차이](../assets/09-5/09-5-twb-vs-twbx.png)
 
 #### `.twb`란?
 
@@ -71,7 +71,7 @@ Tableau는 대시보드를 PowerPoint 형식으로 내보낼 수 있습니다.
 
 대시보드나 워크시트를 정적인 결과물로 빠르게 공유하고 싶다면 이미지 내보내기가 가장 간단합니다.
 
-![대시보드 이미지 내보내기 메뉴](../assets/09-5/09-5-export-powerpoint.png)
+![대시보드 이미지 내보내기 메뉴](../assets/09-5/09-5-export-image-menu.png)
 
 - 대시보드에서는 `대시보드 -> 이미지로 내보내기`
 - 워크시트에서는 `워크시트 -> 내보내기 -> 이미지`
@@ -141,7 +141,7 @@ Public에 게시하기 위해서는 Public 계정을 먼저 생성해야 합니�
 
 Public에 게시하려면 데이터를 `추출(Extract)` 형태로 만들어야 하는 경우가 많습니다.
 
-![데이터 추출 만들기](../assets/09-5/09-5-public-publish-screen.png)
+![데이터 추출 만들기](../assets/09-5/09-5-create-extract.png)
 
 라이브와 추출의 차이는 뒤 챕터에서 자세히 다루겠지만, 여기서는 Public 게시 전에 추출 전환이 필요할 수 있다는 점만 기억하시면 됩니다.
 
