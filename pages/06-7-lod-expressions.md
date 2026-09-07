@@ -12,7 +12,7 @@
 
 ## 1. LOD 표현식이란?
 
-![LOD 개념](../assets/06-3/06-3-lod-concept.png)
+![LOD 개념](../assets/06-7/06-7-lod-concept.png)
 
 LOD Expressions(Level of Detail Expressions)은 Tableau에서 집계 수준을 직접 제어할 수 있게 해주는 기능입니다.
 
