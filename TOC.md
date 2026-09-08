@@ -72,6 +72,7 @@
   * [10-2. Tableau Pulse](pages/10-2-tableau-pulse.md)
   * [10-3. Tableau Agent](pages/10-3-tableau-agent.md)
   * [10-4. Tableau MCP](pages/10-4-tableau-mcp.md)
+  * [10-5. Tableau Extension](pages/10-5-tableau-extension.md)
 * [11. Tableau Prep을 활용한 데이터 전처리](pages/11-tableau-prep.md)
   * [11-1. Tableau Prep 소개](pages/11-1-tableau-prep-introduction.md)
   * [11-2. Tableau Prep 다운로드](pages/11-2-tableau-prep-download.md)

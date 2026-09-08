@@ -11,7 +11,7 @@
 3. Tableau MCP가 실제로 하는 일
 4. MCP 연결 설정
 
-## 1. Tableau MCP란? 2025년 11월 공개
+## 1. Tableau MCP란?
 
 [GitHub - tableau/tableau-mcp](https://github.com/tableau/tableau-mcp)
 
@@ -20,6 +20,9 @@
 Tableau MCP(Model Context Protocol)는 LLM(Claude 등)이 Tableau Cloud에 있는 데이터, 대시보드, 이미지를 API를 통해 안전하게 조회·분석하도록 중간에서 연결해 주는 Bridge 레이어입니다.
 
 즉, AI가 Tableau에 직접 접속하는 것이 아니라, `MCP 서버를 통해 허용된 기능만 호출`하고 그 결과를 다시 AI가 해석·요약하는 구조입니다.
+
+Tableau의 공식 MCP 서버는 2025년 5월 GitHub에 공개되었고, npm 패키지(`@tableau/mcp-server`)는 2025년 9월부터 배포되고 있습니다.  
+비교적 최근에 나온 기능이라 버전에 따라 제공 도구와 설정 방식이 달라질 수 있으므로, 실제 도입 시에는 GitHub 저장소의 README를 함께 확인하시는 것이 좋습니다.
 
 핵심은 다음과 같습니다.
 
@@ -112,3 +115,6 @@ MCP가 데이터를 직접 해석해서 최종 답을 만드는 것이 아니라
 
 실무적으로는 여기서 `PAT_VALUE`, 서버 주소, 사이트 이름 같은 인증 정보 관리가 가장 중요합니다.  
 즉, Tableau MCP는 연결만 되면 끝나는 기능이 아니라, `권한과 인증을 안전하게 관리하면서 AI와 Tableau를 연결하는 운영 설정`까지 포함하는 개념입니다.
+
+또한 MCP는 데이터를 조회하고 연결하는 계층이고, 그 결과를 대시보드 화면 안에서 보여주려면 별도의 UI 계층이 필요합니다.  
+이 부분은 이어지는 `10-5. Tableau Extension`에서 다룹니다.

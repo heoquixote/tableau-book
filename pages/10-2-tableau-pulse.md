@@ -9,11 +9,11 @@
 1. Tableau Pulse란?
 2. 핵심 구성 요소
 
-## 1. Tableau Pulse란? 2024년 2월 공개
+## 1. Tableau Pulse란?
 
 ![Tableau Pulse 예시](../assets/10-2/10-2-pulse.png)
 
-Tableau Pulse는 Tableau에 포함된 AI 기반 KPI 모니터링 레이어입니다.
+Tableau Pulse는 2024년 2월에 공개된, Tableau에 포함된 AI 기반 KPI 모니터링 레이어입니다.
 
 - 전통적인 대시보드처럼 사용자가 직접 열어서 해석하는 방식이 아니라
 - 정의된 핵심 지표(Metric)를 중심으로

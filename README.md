@@ -44,12 +44,10 @@ Tableau Desktop 설치부터 Tableau Cloud 계정 준비, 추가 인증, 라이�
 주요 내용:
 
 - Tableau Desktop 다운로드와 설치
-- 운영체제별 설치 흐름
-- Tableau Cloud 계정 활성화
-- MFA 등록과 인증 도구 설정
-- Desktop 라이선스 활성화와 확인
-- Tableau Desktop Public Edition과 유료 Desktop 차이
-- Tableau Desktop Public Edition 설치
+- Tableau Desktop Public Edition과 유료 Desktop 차이, 그리고 설치
+- 라이선스 활성화: 제품 키 방식과 서버 로그인 방식
+- Tableau Cloud 계정 활성화와 MFA 등록
+- 활성화 확인 방법
 - 실습 데이터 소개
 
 ### 03. Tableau UI 및 기본 기능
@@ -158,7 +156,7 @@ Tableau에서 자주 쓰는 기본 필드 구성을 다루는 장입니다.
 ### 10. 태블로를 활용한 고급 분석
 
 기본 시각화와 대시보드 이후에 다룰 확장 분석 기능과 Tableau의 최신 AI 기능을 모아두는 장입니다.  
-Python 연동, 지표 중심 경험, 생성형 AI 보조, AI 에이전트 연계까지 실무 관점으로 정리합니다.
+Python 연동, 지표 중심 경험, 생성형 AI 보조, AI 에이전트 연계, 그리고 대시보드 안에 직접 앱을 얹는 확장까지 실무 관점으로 정리합니다.
 
 주요 내용:
 
@@ -166,6 +164,7 @@ Python 연동, 지표 중심 경험, 생성형 AI 보조, AI 에이전트 연계
 - Tableau Pulse
 - Tableau Agent
 - Tableau MCP
+- Tableau Extension
 
 ### 11. Tableau Prep을 활용한 데이터 전처리
 

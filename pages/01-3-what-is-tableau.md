@@ -18,7 +18,7 @@
 
 Tableau는 데이터를 시각화하고 분석하는 데 특화된 비즈니스 인텔리전스(Business Intelligence, BI) 도구입니다. 복잡한 데이터를 차트, 그래프, 대시보드 형태로 표현해 사용자가 보다 쉽게 이해하고 해석할 수 있도록 돕습니다.
 
-![Tableau 소개 이미지 삽입 예정](../assets/01-3/01-3-tableau-overview.png)
+![Tableau 소개](../assets/01-3/01-3-tableau-overview.png)
 
 Tableau의 가장 큰 장점은 코드를 많이 작성하지 않아도 된다는 점입니다. 사용자는 드래그 앤 드롭 방식으로 필드를 배치하고, 차트를 만들고, 필터를 조정하면서 데이터를 탐색할 수 있습니다. 이 때문에 데이터 분석가뿐 아니라 현업 사용자, 관리자, 기획자도 비교적 빠르게 활용할 수 있습니다.
 
@@ -28,7 +28,7 @@ Tableau의 가장 큰 장점은 코드를 많이 작성하지 않아도 된다�
 
 Tableau는 2003년 Stanford University 출신의 Chris Stolte, Christian Chabot, Pat Hanrahan이 설립했습니다. 초기 목표는 누구나 데이터를 시각적으로 탐색하고, 더 나은 의사결정을 할 수 있도록 만드는 것이었습니다.
 
-![Tableau 역사 이미지 삽입 예정](../assets/01-3/01-3-tableau-history.png)
+![Tableau 역사](../assets/01-3/01-3-tableau-history.png)
 
 주요 흐름은 다음과 같습니다.
 
@@ -44,7 +44,7 @@ Tableau는 2003년 Stanford University 출신의 Chris Stolte, Christian Chabot,
 
 Tableau는 금융, 유통, IT, 헬스케어, 제조, 물류, 공공 부문 등 거의 모든 산업에서 사용되고 있습니다. 이는 Tableau가 특정 업종 전용 도구가 아니라, 다양한 데이터 구조를 공통된 분석 인터페이스로 다룰 수 있기 때문입니다.
 
-![Tableau 활용 기업 이미지 삽입 예정](../assets/01-3/01-3-tableau-customers.png)
+![Tableau 활용 기업](../assets/01-3/01-3-tableau-customers.png)
 
 대표적인 예시는 다음과 같습니다.
 
@@ -57,7 +57,7 @@ Tableau는 금융, 유통, IT, 헬스케어, 제조, 물류, 공공 부문 등 �
 
 Tableau는 하나의 단일 프로그램이 아니라, 데이터 준비부터 분석, 배포와 협업까지 이어지는 제품군으로 구성됩니다.
 
-![Tableau 제품군 개요 이미지 삽입 예정](../assets/01-3/01-3-tableau-product-suite.png)
+![Tableau 제품군 개요](../assets/01-3/01-3-tableau-product-suite.png)
 
 핵심 제품군은 다음과 같습니다.
 
@@ -69,7 +69,7 @@ Tableau는 하나의 단일 프로그램이 아니라, 데이터 준비부터 �
 
 Tableau Prep은 분석 전에 필요한 데이터 준비 작업을 시각적으로 수행할 수 있게 해주는 도구입니다.
 
-![Tableau Prep 이미지 삽입 예정](../assets/01-3/01-3-tableau-prep.png)
+![Tableau Prep](../assets/01-3/01-3-tableau-prep.png)
 
 주요 특징은 다음과 같습니다.
 
@@ -82,7 +82,7 @@ Tableau Prep은 분석 전에 필요한 데이터 준비 작업을 시각적으�
 
 Tableau Desktop은 Tableau 제품군의 중심이라고 할 수 있는 분석 제작 도구입니다.
 
-![Tableau Desktop 이미지 삽입 예정](../assets/01-3/01-3-tableau-desktop.png)
+![Tableau Desktop](../assets/01-3/01-3-tableau-desktop.png)
 
 주요 기능은 다음과 같습니다.
 
@@ -96,7 +96,7 @@ Tableau Desktop은 Tableau 제품군의 중심이라고 할 수 있는 분석 �
 
 Tableau Server와 Tableau Cloud는 완성된 콘텐츠를 조직 차원에서 배포하고 공유하는 역할을 담당합니다.
 
-![Tableau Server and Cloud 이미지 삽입 예정](../assets/01-3/01-3-tableau-server-cloud.png)
+![Tableau Server and Cloud](../assets/01-3/01-3-tableau-server-cloud.png)
 
 주요 기능은 다음과 같습니다.
 
@@ -109,7 +109,7 @@ Tableau Server와 Tableau Cloud는 완성된 콘텐츠를 조직 차원에서 �
 
 Tableau는 데이터 준비, 분석 제작, 배포와 소비가 하나의 흐름으로 연결되는 구조를 가집니다.
 
-![Tableau 구조 이미지 삽입 예정](../assets/01-3/01-3-tableau-architecture.png)
+![Tableau 구조](../assets/01-3/01-3-tableau-architecture.png)
 
 일반적인 흐름은 다음과 같습니다.
 

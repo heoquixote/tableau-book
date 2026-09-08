@@ -31,10 +31,10 @@ TabPy는 Tableau와 Python을 연결해주는 오픈소스 서버입니다.
 
 ```tableau
 SCRIPT_REAL("import numpy as np
-return np.mean(_arg1)", SUM([Sales]))
+return np.mean(_arg1)", SUM([매출]))
 ```
 
-즉, Tableau의 `[Sales]` 데이터를 Python으로 보내서 `numpy.mean()`으로 평균을 구하는 방식입니다.
+즉, Tableau의 `[매출]` 데이터를 Python으로 보내서 `numpy.mean()`으로 평균을 구하는 방식입니다.
 
 #### 2. Send Code to TabPy and Run it
 
