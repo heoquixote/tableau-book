@@ -89,7 +89,7 @@ Tableau는 대시보드를 PowerPoint 형식으로 내보낼 수 있습니다.
 
 워크시트가 크로스탭 형태일 경우 Excel로 내보낼 수도 있습니다.
 
-![워크시트 내보내기 메뉴](../assets/09-5/09-5-twb-vs-twbx.png)
+![워크시트 내보내기 메뉴](../assets/09-5/09-5-worksheet-export-menu.png)
 
 메뉴 경로:
 
@@ -121,7 +121,7 @@ Tableau Public 주소:
 
 [Tableau Public](https://public.tableau.com/)
 
-![Tableau Public](../assets/09-5/09-5-export-image-menu.png)
+![Tableau Public 소개 페이지](../assets/09-5/09-5-tableau-public-site.png)
 
 #### 주의할 점
 
@@ -148,6 +148,6 @@ Public에 게시하려면 데이터를 `추출(Extract)` 형태로 만들어야 
 
 #### 게시 화면
 
-![Tableau Public 게시 화면](../assets/09-5/09-5-create-extract.png)
+![Tableau Public 게시 화면](../assets/09-5/09-5-publish-to-public.png)
 
 게시가 끝나면 Public에 생성된 URL을 다른 곳에 공유할 수 있습니다.
